@@ -97,15 +97,8 @@ img {
     top: 80%
 }
 
-.title-bg-pic {
-    background-image: url(/../HistoryOfTheInternet/images/Index_picture.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 .card-bg-color {
-    background: #98C1D9;
+    background: #293241;
 }
 
 .intro-state {
