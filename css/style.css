@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
-     background: #E0FBFC;
+    background: #E0FBFC;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     margin-top: 50px;
@@ -28,7 +28,6 @@ body {
     margin-bottom: 40px;
     overflow: hidden
 }
-
 
 .content .content-overlay {
     background: rgba(0, 0, 0, 0.7);
@@ -98,8 +97,11 @@ img {
     top: 80%
 }
 
-.title-bg-color, .footer-bg-color {
-    background: #E0FBFC;
+.title-bg-pic {
+    background-image: url(/../HistoryOfTheInternet/images/Index_picture.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .card-bg-color {
@@ -115,12 +117,12 @@ img {
     text-align: right;
 }
 
-.about-pg, .team-pg, .topic-pg{
+.about-pg, .team-pg, .topic-pg {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
@@ -130,4 +132,8 @@ h1{
 
 .info-push {
     padding-top: 25px;
+}
+
+.title-font-color {
+    color: white;
 }
