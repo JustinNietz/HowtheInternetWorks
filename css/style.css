@@ -114,3 +114,7 @@ img {
 .text-right {
     text-align: right;
 }
+
+.about-pg, .team-pg{
+    margin-top: 100px;
+}
