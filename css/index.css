@@ -4,3 +4,7 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+.radius {
+    border-radius: 15px;
+}
