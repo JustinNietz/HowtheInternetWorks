@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
-       background: #E0FBFC;
+     background: #E0FBFC;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     margin-top: 50px;
@@ -115,6 +115,19 @@ img {
     text-align: right;
 }
 
-.about-pg, .team-pg{
-    margin-top: 100px;
+.about-pg, .team-pg, .topic-pg{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1{
+    text-align: center;
+}
+
+.about-bg-color {
+    background: white;
+}
+
+.info-push {
+    padding-top: 25px;
 }
