@@ -130,3 +130,11 @@ h1 {
     margin-bottom: 0;
 }
 
+.p-align {
+    text-align: center;
+}
+
+.ab-cd-push {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
