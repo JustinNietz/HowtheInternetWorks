@@ -4,8 +4,7 @@ body {
     background: #E0FBFC;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    margin-top: 50px;
-
+    margin-top: 55px;
 }
 
 .container {
@@ -127,4 +126,7 @@ h1 {
     padding-top: 25px;
 }
 
+.breadcrumb {
+    margin-bottom: 0;
+}
 
