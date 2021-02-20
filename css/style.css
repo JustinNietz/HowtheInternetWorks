@@ -144,3 +144,8 @@ h1, .topic-first-sen, .topic-img-card {
     border-style: solid;
     border-width: 6px;
 }
+
+.topic-push {
+    padding-left: 15px;
+    line-height: 2;
+}
