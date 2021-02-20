@@ -7,6 +7,11 @@ body {
     margin-top: 55px;
 }
 
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #293241;
+}
 .container {
 
 }
@@ -122,6 +127,13 @@ h1, .topic-first-sen, .topic-img-card {
     background: white;
 }
 
+.creation-bg {
+    background-image: url(/../HistoryOfTheInternet/images/network_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .info-push {
     padding-top: 30px;
 }
@@ -154,4 +166,8 @@ h2 {
     font-size: 25px;
       font-weight: 900;
     color: #3D5A80;
+}
+
+.video-push{
+    padding-left: 75px;
 }
