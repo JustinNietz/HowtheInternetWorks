@@ -111,7 +111,7 @@ img {
 }
 
 .about-pg, .team-pg, .topic-pg {
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 50px;
 }
 
@@ -126,4 +126,5 @@ h1 {
 .info-push {
     padding-top: 25px;
 }
+
 
