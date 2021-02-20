@@ -12,6 +12,7 @@ h1 {
     font-weight: 900;
     color: #293241;
 }
+
 .container {
 
 }
@@ -133,6 +134,39 @@ h1, .topic-first-sen, .topic-img-card {
     background-position: center;
     background-size: cover;
 }
+/*
+.www-bg {
+    background-image: url(/../HistoryOfTheInternet/images/web_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .3;
+} */
+
+.www-bg{
+  position: relative;
+  z-index: 5;
+  height: auto;
+  width: auto;
+  color: #000;
+  font-size: 400%;
+  padding: 0;
+}
+
+.www-bg .bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(/../HistoryOfTheInternet/images/web_bg.jpg) center center;
+  opacity: 0.3;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 .info-push {
     padding-top: 30px;
@@ -164,10 +198,10 @@ h1, .topic-first-sen, .topic-img-card {
 
 h2 {
     font-size: 25px;
-      font-weight: 900;
+    font-weight: 900;
     color: #3D5A80;
 }
 
-.video-push{
+.video-push {
     padding-left: 75px;
 }
