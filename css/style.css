@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
-  background-color:#eef4f7;
+    background-color: #eef4f7;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     margin-top: 55px;
@@ -148,4 +148,10 @@ h1, .topic-first-sen, .topic-img-card {
 .topic-push {
     padding-left: 15px;
     line-height: 2;
+}
+
+h2 {
+    font-size: 25px;
+      font-weight: 900;
+    color: #3D5A80;
 }
