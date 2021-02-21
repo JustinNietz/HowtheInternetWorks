@@ -8,8 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Font awesome -->
+    <script src="https://use.fontawesome.com/9a78fbf37a.js"></script>
     <!-- My Style CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <! -- Team CSS -->
+    <link rel="stylesheet" href="css/team.css">
 
     <title>My First Website</title>
 </head>
@@ -34,10 +38,10 @@
                         <a class="dropdown-item" href="topics/Creation.html">The Invention of the Internet</a>
                         <a class="dropdown-item" href="topics/WWW.html">Creation of the World Wide Web</a>
                         <a class="dropdown-item" href="topics/Search.html">The Search Engine</a>
-                        <a class="dropdown-item" href="#">Age of E-commerce</a>
-                        <a class="dropdown-item" href="#">Communication Uprising</a>
+                        <a class="dropdown-item" href="topics/E-commerce.html">Age of E-Commerce</a>
+                        <a class="dropdown-item" href="topics/Communication.html">Communication Uprising</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Glossary</a>
+                        <a class="dropdown-item" href="topics/Glossary.html">Glossary</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -50,32 +54,35 @@
         </div>
     </div>
 </nav>
+<!-- Team cards create with help from: https://epicbootstrap.com/snippets/team-cards -->
 
-<div class="container">
-    <!--Cards for Linkedin-->
-    <div class="row team-pg">
-        <div class="col-md-6">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Justin Nietzer's Linkedin">
-                <div class="card-body">
-                    <h5 class="card-title">Team Member 1</h5>
-                    <p class="card-text"></p>
-                    <a href="#" class="btn btn-primary">View Linkedin</a>
+<div class="about-bg-color about-pg">
+    <h1>Meet the Team</h1>
+</div>
+                <div class="team-boxed">
+        <div class="container">
+            <div class="row people">
+                <div class="col-md-6 col-lg-6 item">
+                    <div class="box"><img class="rounded-circle" src="images/Justin.JPG">
+                        <h3 class="name">Justin Nietzer</h3>
+                        <p class="title">Student</p>
+                        <p class="description">Pursuing a career in Software Development through the New Jersey Institute of Technology. </p>
+                        <div class="social"><a href="https://www.linkedin.com/in/justin-nietzer-149195127/" target="_blank"><i class="fa fa-linkedin"></i></a><a href="https://github.com/JustinNietz" target="_blank"><i class="fa fa-github"></i></a></div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Nikolett Muller's Linkedin">
-                <div class="card-body">
-                    <h5 class="card-title">Team Member 1</h5>
-                    <p class="card-text"></p>
-                    <a href="#" class="btn btn-primary">View Linkedin</a>
+                <div class="col-md-6 col-lg-6 item">
+                    <div class="box"><img class="rounded-circle" src="assets/img/Photo_resized.jpg">
+                        <h3 class="name">Nikolett Muller</h3>
+                        <p class="title">Student</p>
+                        <p class="description">Master of Information Systems student at New Jersey Institute of Technology</p>
+           <div class="social"><a href="https://www.linkedin.com/in/nikolett-muller-2514a6207/" target="_blank"><i class="fa fa-linkedin"></i></a><a href="https://github.com/LadyObserver85" target="_blank"><i class="fa fa-github"></i></a></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
 
 <!-- Optional JavaScript -->

@@ -9,9 +9,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- My Style CSS -->
-    <link rel="stylesheet" href="css/style.css">
+   <!-- <link rel="stylesheet" href="css/style.css"> -->
     <!-- Index only -->
     <link rel="stylesheet" href="css/index.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 
     <title>My First Website</title>
 </head>
@@ -36,10 +47,10 @@
                         <a class="dropdown-item" href="topics/Creation.html">The Invention of the Internet</a>
                         <a class="dropdown-item" href="topics/WWW.html">Creation of the World Wide Web</a>
                         <a class="dropdown-item" href="topics/Search.html">The Search Engine</a>
-                        <a class="dropdown-item" href="#">Age of E-commerce</a>
-                        <a class="dropdown-item" href="#">Communication Uprising</a>
+                        <a class="dropdown-item" href="topics/E-commerce.html">Age of E-Commerce</a>
+                        <a class="dropdown-item" href="topics/Communication.html">Communication Uprising</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Glossary</a>
+                        <a class="dropdown-item" href="topics/Glossary.html">Glossary</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -54,114 +65,95 @@
 </nav>
 
 <!-- Title of Index based off: https://getbootstrap.com/docs/5.0/examples/album/ -->
-<div class="container-fluid title-bg-pic">
-    <section class="text-center container">
-        <div class="row py-lg-5">
-            <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="title-font-color"><b>A Brief History of the Internet</b></h1>
-                <p class="lead title-font-color">How was the Internet created? How does search work? This website serves as a
-                    reference guide to the Internet.</p>
-                <p class="intro-state title-font-color"><b>Hover over and click on a topic below to get started!</b></p>
-            </div>
-        </div>
-    </section>
+<div class="internet-bg index-pg">
+                <div class="int-bg"></div>
+                <h1 class="index-pg">A Brief History of the Internet</h1>
+                <p class="intro-state sub-font lead">This website serves as a
+                    reference guide to the Internet. Click below to get started.</p>
 </div>
 
-
-    <!-- Hover Cards based off: https://bbbootstrap.com/snippets/simple-image-overlay-hover-effect-38877551 -->
-    <div class="container card-bg-color radius">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="content"><a href="topics/Creation.html">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/network.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">The Invention of the Internet</h3>
-                        <p class="content-text"><i class="fa fa-map-marker"></i>Start Reading . . .</p>
-                    </div>
-                </a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="content"><a href="topics/WWW.html">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/web.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">The Creation of the World Wide Web</h3>
-                        <p class="content-text"><i class="fa fa-map-marker"></i>Start Reading . . .</p>
-                    </div>
-                </a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="content"><a href="topics/Search.html">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/search.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">The Search Engine</h3>
-                        <p class="content-text"><i class="fa fa-map-marker"></i>Start Reading . . .</p>
-                    </div>
-                </a></div>
-            </div>
+<!-- Hover Cards based off: https://bbbootstrap.com/snippets/simple-image-overlay-hover-effect-38877551 -->
+<div class="container card-bg-color radius">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="content"><a href="topics/Creation.html">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/network.jpg">
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">The Invention of the Internet</h3>
+                    <p class="content-text"><i class="fa fa-map-marker"></i>Start Reading . . .</p>
+                </div>
+            </a></div>
         </div>
-
-        <div class="row">
-            <div class="col-md-4">
-                <div class="content"><a href="#">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/ecommerce.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">Age of E-commerce</h3>
-                        <p class="content-text"><i class="fa fa-map-marker"></i>Start Reading . . .</p>
-                    </div>
-                </a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="content"><a href="#">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/uprising.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">Communication Uprising</h3>
-                        <p class="content-text"><i class="fa fa-map-marker"></i>Start Reading . . .</p>
-                    </div>
-                </a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="content"><a href="#">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/glossary.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">Glossary</h3>
-                    </div>
-                </a></div>
-            </div>
+        <div class="col-md-4">
+            <div class="content"><a href="topics/WWW.html">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/web.jpg">
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">The Creation of the World Wide Web</h3>
+                    <p class="content-text"><i class="fa fa-map-marker"></i>Start Reading . . .</p>
+                </div>
+            </a></div>
+        </div>
+        <div class="col-md-4">
+            <div class="content"><a href="topics/Search.html">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/search.jpg">
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">The Search Engine</h3>
+                    <p class="content-text"><i class="fa fa-map-marker"></i>Start Reading . . .</p>
+                </div>
+            </a></div>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="content"><a href="#">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/ecommerce.jpg">
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Age of E-commerce</h3>
+                    <p class="content-text"><i class="fa fa-map-marker"></i>Start Reading . . .</p>
+                </div>
+            </a></div>
+        </div>
+        <div class="col-md-4">
+            <div class="content"><a href="#">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/uprising.jpg">
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Communication Uprising</h3>
+                    <p class="content-text"><i class="fa fa-map-marker"></i>Start Reading . . .</p>
+                </div>
+            </a></div>
+        </div>
+        <div class="col-md-4">
+            <div class="content"><a href="#">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/glossary.jpg">
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Glossary</h3>
+                </div>
+            </a></div>
+        </div>
+    </div>
+</div>
 </section>
 
-<footer class="text-muted py-5">
+<footer class="text-muted footer-push">
+    <hr>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <p class="mb-1 title-font-color">Website created by Justin Nietzer and Nikolett Muller</p>
+                <p class="mb-1 footer-font-color">Website created by Justin Nietzer and Nikolett Muller</p>
             </div>
             <div class="col-md-6">
-                <p class="mb-1 text-right title-font-color"><span>&#169;</span> NJIT-IS-601</p>
+                <p class="mb-1 text-right footer-font-color"><span>&#169;</span> NJIT-IS-601</p>
             </div>
         </div>
     </div>
 </footer>
-
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 
 </body>
 </html>
