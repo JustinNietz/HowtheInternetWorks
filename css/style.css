@@ -1,11 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
-    background: #E0FBFC;
+    background-color: #eef4f7;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    margin-top: 50px;
+    margin-top: 55px;
+}
 
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #293241;
 }
 
 .container {
@@ -111,11 +116,11 @@ img {
 }
 
 .about-pg, .team-pg, .topic-pg {
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 50px;
 }
 
-h1 {
+h1, .topic-first-sen, .topic-img-card {
     text-align: center;
 }
 
@@ -123,13 +128,54 @@ h1 {
     background: white;
 }
 
-.info-push {
-    padding-top: 25px;
+.creation-bg {
+    background-image: url(/../HistoryOfTheInternet/images/network_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*
+.www-bg {
+    background-image: url(/../HistoryOfTheInternet/images/web_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .3;
+} */
+
+.www-bg{
+  position: relative;
+  z-index: 5;
+  height: auto;
+  width: auto;
+  color: #000;
+  font-size: 400%;
+  padding: 0;
 }
 
-.title-font-color {
-    color: white;
+.www-bg .bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(/../HistoryOfTheInternet/images/web_bg.jpg) center center;
+  opacity: 0.3;
+    width: 100%;
+    height: 100%;
 }
+
+
+
+.info-push {
+    padding-top: 30px;
+}
+
+.breadcrumb {
+    margin-bottom: 0;
+}
+
 .ecommerce-bg {
     background-image: url(/../HistoryOfTheInternet/images/ecommerce.jpg);
     background-repeat: no-repeat;
@@ -140,4 +186,35 @@ h3 {
     font-size: 20px;
     font-weight: 900;
     color: #3D5A80;
+
+
+.p-align {
+    text-align: center;
+}
+
+.ab-cd-push {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.topic-card {
+    border-color: #EE6C4D;
+    border-style: solid;
+    border-width: 6px;
+}
+
+.topic-push {
+    padding-left: 15px;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 900;
+    color: #3D5A80;
+}
+
+.video-push {
+    padding-left: 75px;
+
 }
