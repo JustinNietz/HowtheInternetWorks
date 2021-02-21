@@ -130,3 +130,7 @@ h1 {
 .title-font-color {
     color: white;
 }
+.topic-push {
+    padding-left: 15px;
+    line-height: 2;
+}
