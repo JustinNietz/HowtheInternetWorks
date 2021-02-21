@@ -1,16 +1,63 @@
-body {
+/* body {
     background-image: url(/../HistoryOfTheInternet/images/Index_picture.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+} */
+
+h1 {
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    color: #293241;
 }
+
+.intro-state {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.internet-bg{
+  z-index: 5;
+  height: auto;
+  width: auto;
+  color: #000;
+  font-size: 400%;
+  padding: 0;
+}
+@media only screen and (min-width: 600px) {
+    .int-bg {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.4;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .int-bg {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: url(/../HistoryOfTheInternet/images/Index_picture.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.4;
+    }
+}
+
 
 .radius {
     border-radius: 15px;
-}
-
-.title-font-color {
-    color: #eed202;
 }
 
 .footer-font-color {
@@ -18,10 +65,104 @@ body {
 }
 
 .title-push {
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
-.title-font {
-    color: #A9A9A9;
+.sub-font {
+    color: #3D5A80;
+    text-align: center;
+    font-weight: 500;
+}
+
+.footer-push{
+    padding-top: 70px;
+}
+
+ .content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    overflow: hidden
+}
+
+.content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.content:hover .content-overlay {
+    opacity: 1
+}
+
+.content-image {
+    width: 100%
+}
+
+img {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px
+}
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1
+}
+
+.content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase
+}
+
+.content-details p {
+    color: #fff;
+    font-size: 0.8em
+}
+
+.fadeIn-bottom {
+    top: 80%
+}
+
+.card-bg-color {
+    background: #293241;
+}
+
+.index-pg {
+        padding-top: 40px;
+    padding-bottom: 10px;
 }
