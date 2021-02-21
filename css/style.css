@@ -147,6 +147,10 @@ h1, .topic-first-sen, .topic-img-card {
     height: 100%;
 }
 
+
+.communication-bg {
+    background-image: url(/../HistoryOfTheInternet/images/uprising.jpg);
+
 .topic-bg .team-bg {
     position: absolute;
     z-index: -1;
@@ -155,6 +159,7 @@ h1, .topic-first-sen, .topic-img-card {
     left: 0;
     right: 0;
     background: url(/../HistoryOfTheInternet/images/team.jpg);
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
