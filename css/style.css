@@ -135,3 +135,9 @@ h2 {
 .video-push {
     padding-left: 75px;
 }
+.glossary-bg {
+    background-image: url(/../HistoryOfTheInternet/images/glossary.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
