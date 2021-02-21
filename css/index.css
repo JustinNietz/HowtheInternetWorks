@@ -1,15 +1,17 @@
-/* body {
-    background-image: url(/../HistoryOfTheInternet/images/Index_picture.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-} */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+    background-color: #eef4f7;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
 
 h1 {
     font-size: 80px;
     font-weight: 700;
     text-align: center;
     color: #293241;
+    font-family: sans-serif;
 }
 
 .intro-state {
@@ -53,7 +55,6 @@ h1 {
     .content-details h3 {
         color: #fff;
         font-weight: 500;
-        font-size: 15px;
         letter-spacing: 0.15em;
         margin-bottom: 0.5em;
         text-transform: uppercase;
@@ -80,7 +81,6 @@ h1 {
         .content-details h3 {
         color: #fff;
         font-weight: 500;
-        font-size: 15px;
         letter-spacing: 0.15em;
         margin-bottom: 0.5em;
         text-transform: uppercase;
@@ -111,11 +111,10 @@ h1 {
         .content-details h3 {
         color: #fff;
         font-weight: 500;
-        font-size: 15px;
         letter-spacing: 0.15em;
         margin-bottom: 0.5em;
         text-transform: uppercase;
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
     .content-details p {
@@ -181,7 +180,6 @@ h1 {
     .content-details h3 {
         color: #fff;
         font-weight: 500;
-        font-size: 15px;
         letter-spacing: 0.15em;
         margin-bottom: 0.5em;
         text-transform: uppercase;
