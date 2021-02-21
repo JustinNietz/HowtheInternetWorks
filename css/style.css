@@ -130,3 +130,9 @@ h1 {
 .title-font-color {
     color: white;
 }
+.ecommerce-bg {
+    background-image: url(/../HistoryOfTheInternet/images/ecommerce.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
