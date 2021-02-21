@@ -176,6 +176,18 @@ h1, .topic-first-sen, .topic-img-card {
     margin-bottom: 0;
 }
 
+.ecommerce-bg {
+    background-image: url(/../HistoryOfTheInternet/images/ecommerce.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #3D5A80;
+
+
 .p-align {
     text-align: center;
 }
@@ -204,4 +216,5 @@ h2 {
 
 .video-push {
     padding-left: 75px;
+
 }
