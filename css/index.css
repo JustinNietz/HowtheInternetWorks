@@ -8,3 +8,20 @@ body {
 .radius {
     border-radius: 15px;
 }
+
+.title-font-color {
+    color: #eed202;
+}
+
+.footer-font-color {
+    color: black;
+}
+
+.title-push {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.title-font {
+    color: #A9A9A9;
+}
