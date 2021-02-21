@@ -104,6 +104,7 @@ h1 {
         right: 0;
         background-image: url(/../HistoryOfTheInternet/images/Index_picture.png);
         background-repeat: no-repeat;
+        background-position: center;
         background-size: cover;
         opacity: 0.4;
     }
@@ -145,7 +146,7 @@ h1 {
 }
 
 .footer-push {
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 .content {
