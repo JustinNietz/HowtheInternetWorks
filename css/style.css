@@ -1,15 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
-    background: #E0FBFC;
+    background-color: #eef4f7;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    margin-top: 50px;
-
+    margin-top: 55px;
+    margin-bottom: 70px;
 }
 
-.container {
-
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #293241;
 }
 
 .title {
@@ -18,104 +20,17 @@ body {
     margin-bottom: 10px
 }
 
-.content {
-    position: relative;
-    width: 90%;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    overflow: hidden
-}
-
-.content .content-overlay {
-    background: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    height: 99%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0;
-    -webkit-transition: all 0.4s ease-in-out 0s;
-    -moz-transition: all 0.4s ease-in-out 0s;
-    transition: all 0.4s ease-in-out 0s
-}
-
-.content:hover .content-overlay {
-    opacity: 1
-}
-
-.content-image {
-    width: 100%
-}
-
-img {
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 5px
-}
-
-.content-details {
-    position: absolute;
-    text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    opacity: 0;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -moz-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s
-}
-
-.content:hover .content-details {
-    top: 50%;
-    left: 50%;
-    opacity: 1
-}
-
-.content-details h3 {
-    color: #fff;
-    font-weight: 500;
-    letter-spacing: 0.15em;
-    margin-bottom: 0.5em;
-    text-transform: uppercase
-}
-
-.content-details p {
-    color: #fff;
-    font-size: 0.8em
-}
-
-.fadeIn-bottom {
-    top: 80%
-}
-
-.card-bg-color {
-    background: #293241;
-}
-
-.intro-state {
-    margin-top: 60px;
-    margin-bottom: 0;
-}
 
 .text-right {
     text-align: right;
 }
 
 .about-pg, .team-pg, .topic-pg {
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 50px;
 }
 
-h1 {
+h1, .topic-first-sen, .topic-img-card {
     text-align: center;
 }
 
@@ -123,14 +38,100 @@ h1 {
     background: white;
 }
 
-.info-push {
-    padding-top: 25px;
+.creation-bg {
+    background-image: url(/../HistoryOfTheInternet/images/network_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*
+.www-bg {
+    background-image: url(/../HistoryOfTheInternet/images/web_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .3;
+} */
+
+.www-bg{
+  position: relative;
+  z-index: 5;
+  height: auto;
+  width: auto;
+  color: #000;
+  font-size: 400%;
+  padding: 0;
 }
 
-.title-font-color {
-    color: white;
+.www-bg .bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(/../HistoryOfTheInternet/images/web_bg.jpg) center center;
+  opacity: 0.3;
+    width: 100%;
+    height: 100%;
 }
+
+
+
+.info-push {
+    padding-top: 30px;
+}
+
+.breadcrumb {
+    margin-bottom: 0;
+}
+
+.ecommerce-bg {
+    background-image: url(/../HistoryOfTheInternet/images/ecommerce.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.communication-bg {
+    background-image: url(/../HistoryOfTheInternet/images/uprising.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #3D5A80;
+}
+
+.p-align {
+    text-align: center;
+}
+
+.ab-cd-push {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.topic-card {
+    border-color: #EE6C4D;
+    border-style: solid;
+    border-width: 6px;
+}
+
 .topic-push {
     padding-left: 15px;
     line-height: 2;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 900;
+    color: #3D5A80;
+}
+
+.video-push {
+    padding-left: 75px;
 }
