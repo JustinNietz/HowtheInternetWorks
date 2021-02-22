@@ -14,13 +14,24 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Team CSS -->
     <link rel="stylesheet" href="css/team.css">
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <!-- Title -->
     <title>Team | The History of the Internet</title>
 </head>
 <body>
 
 <!--Navigation bar -->
-<nav class="navbar fixed-top navbar-expand-lg static-top navbar-dark" style="background-color: #293241;">
+<nav role="navigation" class="navbar fixed-top navbar-expand-lg static-top navbar-dark" style="background-color: #293241;">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -55,15 +66,14 @@
     </div>
 </nav>
 
-
 <!--Title of Topic -->
-<div class="topic-bg about-pg">
+<header role="banner" class="topic-bg about-pg">
     <div class="team-bg"></div>
     <h1 class="about-pg">Meet the Team</h1>
-</div>
+</header>
 
-<!-- Team cards create with help from: https://epicbootstrap.com/snippets/team-cards -->
-<div class="team-boxed">
+<!-- Team cards -->
+<main role="main" class="team-boxed">
     <div class="container">
         <div class="row people">
             <div class="col-md-6 col-lg-6 item">
@@ -91,29 +101,19 @@
             </div>
         </div>
     </div>
-</div>
-<footer class="text-muted footer-push">
+</main>
+
+<footer role="contentinfo" class="text-muted footer-push">
     <hr>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <p class="footer-font-color">Decorative image by <a href="https://unsplash.com/photos/IKtdqKatKPk" target="_blank">Nick Abrams</a></p>
+                <p class="footer-font-color">Decorative image by <a href="https://unsplash.com/photos/IKtdqKatKPk"
+                                                                    target="_blank">Nick Abrams</a></p>
             </div>
         </div>
     </div>
 </footer>
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 
 </body>
 </html>

@@ -27,7 +27,7 @@
 <body>
 
 <!--Fixed-top Navigation bar -->
-<nav class="navbar fixed-top navbar-expand-lg static-top navbar-dark" style="background-color: #293241;">
+<nav role="navigation" class="navbar fixed-top navbar-expand-lg static-top navbar-dark" style="background-color: #293241;">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -63,32 +63,33 @@
 </nav>
 
 <!--Title of Topic -->
-<div class="topic-bg about-pg">
+<header role="banner" class="topic-bg about-pg">
     <div class="about-bg"></div>
     <h1 class="about-pg">About</h1>
-</div>
+</header>
 
-<div class="container text-bg-color">
+<!-- About Content -->
+<main role="main" class="container text-bg-color">
     <div class="row info-push">
         <div class="col-md-8">
             <h2>Why was this made?</h2>
-            <p>
+            <p class="topic-push">
                 This website was designed as the second project for NJIT's course IS-601. This class, Web System
                 Development, is designed to experience in the development of Web based systems using an object-oriented
                 programming language and SQL.
             </p>
-            <p>In this course, students will learn to develop a web-based system through
+            <p class="topic-push">In this course, students will learn to develop a web-based system through
                 an intensive hands-on project that requires students to apply real-world problem-solving skills to meet
                 the challenge of developing a web-based information system.
             </p>
-            <p>
+            <p class="topic-push">
                 Students will learn the basic principles of
                 web-based applications, MVC application design, how to apply object-oriented design patterns, design a
                 relational database, and write SQL queries to create, retrieve, update, and delete information in a
                 database.
             </p>
             <h2>This Project Description</h2>
-            <p>
+            <p class="topic-push">
                 The goal is to make a website about the history of the Internet based off 5 videos. These videos are
                 informative documentaries regarding multiple different topics surrounding the history of the Internet.
             </p>
@@ -137,15 +138,18 @@
             </div>
         </div>
     </div>
-</div>
-<footer class="text-muted footer-push">
+</main>
+
+<!-- Footer -->
+<footer role="contentinfo" class="text-muted">
+    <br>
     <hr>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <p class="footer-font-color">Decorative image by <a
                         href="https://www.pexels.com/photo/woman-in-red-long-sleeve-writing-on-chalk-board-3769714/"
-                        target="_blank">Andrea Piacquadio</a></p>
+                        target="_blank">Andrea Piacquadio</a>.</p>
             </div>
         </div>
     </div>
