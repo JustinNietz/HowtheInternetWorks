@@ -88,3 +88,7 @@
   opacity:1;
 }
 
+/* Padding for Team boxes */
+.team-push{
+      padding-top: 20px;
+}
