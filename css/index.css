@@ -6,23 +6,22 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.nav-color {
-    background-color: #293241;
-}
 h1 {
     font-size: 80px;
     font-weight: 700;
     text-align: center;
     color: #293241;
     font-family: sans-serif;
+        padding-top: 70px;
+    padding-bottom: 10px;
 }
 
-.intro-state {
-    font-size: 25px;
-    margin-top: 10px;
-    margin-bottom: 30px;
+/* Navigation bar color */
+.nav-color {
+    background-color: #293241;
 }
 
+/* Alignment of Background image */
 .internet-bg {
     z-index: 5;
     height: auto;
@@ -31,14 +30,85 @@ h1 {
     font-size: 400%;
     padding: 0;
 }
+
+/* paragraph under Title */
+.intro-state {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* * * * Cards designs: https://bbbootstrap.com/snippets/simple-image-overlay-hover-effect-38877551 * * * */
+.radius {
+    border-radius: 15px;
+}
+
+.title-push {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.sub-font {
+    color: #3D5A80;
+    text-align: center;
+    font-weight: 500;
+}
+
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    overflow: hidden
+}
+
+
+.content:hover .content-overlay {
+    opacity: 1
+}
+
+.content-image {
+    width: 100%
+}
+
+img {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px
+}
+
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1
+}
+
+.card-bg-color {
+    background: #293241;
+}
+
+/* Footer design */
+.footer-push {
+    padding-top: 60px;
+}
+
+.footer-font-color {
+    color: #293241;
+}
+
+/* * * * * * * * * * Media Queries * * * * * * * * * */
 @media only screen and (min-width: 280px) {
-        .content .content-overlay {
+    .content .content-overlay {
         background: rgba(0, 0, 0, 0.7);
         position: absolute;
         height: 99%;
         width: 100%;
     }
-        .content-details {
+
+    .content-details {
         position: absolute;
         text-align: center;
         padding-left: 1em;
@@ -69,6 +139,7 @@ h1 {
         font-size: 1em;
     }
 }
+
 @media only screen and (min-width: 600px) {
     .int-bg {
         position: absolute;
@@ -81,7 +152,8 @@ h1 {
         background-size: cover;
         opacity: 0.4;
     }
-        .content-details h3 {
+
+    .content-details h3 {
         color: #fff;
         font-weight: 500;
         letter-spacing: 0.15em;
@@ -97,6 +169,7 @@ h1 {
 
 }
 
+
 @media only screen and (min-width: 750px) {
     .int-bg {
         position: absolute;
@@ -111,7 +184,8 @@ h1 {
         background-size: cover;
         opacity: 0.4;
     }
-        .content-details h3 {
+
+    .content-details h3 {
         color: #fff;
         font-weight: 500;
         letter-spacing: 0.15em;
@@ -127,40 +201,6 @@ h1 {
 
 }
 
-
-.radius {
-    border-radius: 15px;
-}
-
-.footer-font-color {
-    color: black;
-}
-
-.title-push {
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-
-.sub-font {
-    color: #3D5A80;
-    text-align: center;
-    font-weight: 500;
-}
-
-.footer-push {
-    padding-top: 60px;
-}
-
-.content {
-    position: relative;
-    width: 90%;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    overflow: hidden
-}
 
 @media only screen and (min-width: 1024px) {
     .content-details {
@@ -247,35 +287,4 @@ h1 {
         transition: all 0.4s ease-in-out 0s;
     }
 
-}
-
-
-.content:hover .content-overlay {
-    opacity: 1
-}
-
-.content-image {
-    width: 100%
-}
-
-img {
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 5px
-}
-
-
-.content:hover .content-details {
-    top: 50%;
-    left: 50%;
-    opacity: 1
-}
-
-
-.card-bg-color {
-    background: #293241;
-}
-
-.index-pg {
-    padding-top: 40px;
-    padding-bottom: 10px;
 }
