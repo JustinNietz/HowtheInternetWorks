@@ -24,3 +24,7 @@ This project was created for NJIT IS-601. The website serves as a brief history 
 **[Communication Uprising](topics/Communication.html)**
 
 **[Glossary](topics/Glossary.html)**
+
+## Changelog 
+
+**[Changelog](CHANGELOG.md)**
