@@ -26,8 +26,8 @@
 </head>
 <body>
 
-<!--Fixed Navigation bar -->
-<nav class="navbar fixed-top navbar-expand-lg static-top navbar-dark nav-color">
+<!--Fixed-top Navigation bar -->
+<nav role="navigation" class="navbar fixed-top navbar-expand-lg static-top navbar-dark nav-color">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -63,15 +63,15 @@
 </nav>
 
 <!-- Title of Index -->
-<div class="internet-bg">
+<header role="banner" class="internet-bg">
     <div class="int-bg"></div>
     <h1 class="index-pg">A Brief History of the Internet</h1>
     <p class="intro-state sub-font lead">This website serves as a
         reference guide to the Internet. <i>Click below to get started.</i></p>
-</div>
+</header>
 
 <!-- Hover Cards -->
-<div class="container card-bg-color radius">
+<main role="main" class="container card-bg-color radius">
     <div class="row">
         <div class="col-md-4">
             <div class="content"><a href="topics/Creation.html">
@@ -136,10 +136,10 @@
             </a></div>
         </div>
     </div>
-</div>
-</section>
+</main>
 
-<footer class="text-muted footer-push">
+<!-- Footer -->
+<footer role="contentinfo" class="text-muted footer-push">
     <hr>
     <div class="container">
         <div class="row">
