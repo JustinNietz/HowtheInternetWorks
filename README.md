@@ -1,1 +1,8 @@
-# My First Website
+# A Brief History of the Internet
+
+This project was created for NJIT IS-601. The website serves as a brief history guide to the formation of the internet.
+
+## Live Website
+
+**[The History of the Internet](http://localhost:63342/HistoryOfTheInternet/index.html)**
+
