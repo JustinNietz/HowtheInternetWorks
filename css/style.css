@@ -8,6 +8,10 @@ body {
     margin-bottom: 70px;
 }
 
+.nav-color {
+    background-color: #293241;
+}
+
 h1 {
     font-size: 65px;
     font-weight: 900;

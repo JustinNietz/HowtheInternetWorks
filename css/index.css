@@ -6,6 +6,9 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.nav-color {
+    background-color: #293241;
+}
 h1 {
     font-size: 80px;
     font-weight: 700;
