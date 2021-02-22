@@ -207,7 +207,9 @@ h1, .topic-img-card {
     padding-left: 75px;
 }
 
+/* Shrinking titles */
 @media screen and (max-width:500px) {
-h1 {font-size: 45px;
+h1 {
+font-size: 45px;
 }
 }
