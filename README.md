@@ -4,5 +4,5 @@ This project was created for NJIT IS-601. The website serves as a brief history 
 
 ## Live Website
 
-**[The History of the Internet](http://localhost:63342/HistoryOfTheInternet/index.html)**
+**[The History of the Internet](https://justinnietz.github.io/HistoryOfTheInternet/)**
 
