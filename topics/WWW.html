@@ -23,12 +23,14 @@
             crossorigin="anonymous"></script>
     <!--Tooltip JavaScript -->
     <script src="../js/index.js"></script>
-    <title>My First Website</title>
+    <!-- Title -->
+    <title>The Creation of the World Wide Web | The Invention of the Internet</title>
 </head>
 <body>
 
 <!--Navigation bar -->
-<nav class="navbar fixed-top navbar-expand-lg static-top navbar-dark" style="background-color: #293241;">
+<nav role="navigation" class="navbar fixed-top navbar-expand-lg static-top navbar-dark"
+     style="background-color: #293241;">
     <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -65,13 +67,13 @@
 
 
 <!--Title of Topic -->
-<div class="topic-bg section-title">
+<header role="banner" class="topic-bg section-title">
     <div class="www-bg"></div>
     <h1 class="section-title">The Creation of the World Wide Web</h1>
-</div>
+</header>
 
 <!-- Content -->
-<div class="container text-bg-color">
+<main role="main" class="container text-bg-color">
     <div class="row info-push">
         <div class="col-md-8">
             <p class="topic-push">
@@ -201,9 +203,12 @@
         <div class="col-md-8">
             <h2>Microsoft's Revenge</h2>
             <p class="topic-push">
-                Microsoft planned to drive Netscape to an early grave with a web browser of its own:  <a href="#" data-toggle="tooltip" data-placement="right"
-                   title="Microsoft’s take on the web browser that took elements of Netscape’s browser, but made it free."><strong>Internet Explorer</strong>
-                </a>.
+                Microsoft planned to drive Netscape to an early grave with a web browser of its own: <a href="#"
+                                                                                                        data-toggle="tooltip"
+                                                                                                        data-placement="right"
+                                                                                                        title="Microsoft’s take on the web browser that took elements of Netscape’s browser, but made it free."><strong>Internet
+                Explorer</strong>
+            </a>.
                 Microsoft had advantages in building their browser, including vast finances and reserves of coding
                 talent. Gates also used his army of salesman to stop PC manufacturers from installing anything other
                 than Internet explorer by using dirty methods.
@@ -221,9 +226,10 @@
         <div class="col-md-8">
             <h2>Microsoft in Court</h2>
             <p class="topic-push">
-                In 1998, Rebeck launched an  <a href="#" data-toggle="tooltip" data-placement="right"
-                   title="This is the software which other programs run on top."><strong>Antitrust lawsuit</strong>
-                </a> against Microsoft on behalf of his clients, which included
+                In 1998, Rebeck launched an <a href="#" data-toggle="tooltip" data-placement="right"
+                                               title="This is the software which other programs run on top."><strong>Antitrust
+                lawsuit</strong>
+            </a> against Microsoft on behalf of his clients, which included
                 Netscape. He accused them of using their monopoly to engage in a wide variety of predatory practices to
                 prevent consumers from accessing Netscape’s products.
             </p>
@@ -259,10 +265,10 @@
             </p>
         </div>
     </div>
-</div>
+</main>
 
 <!-- Pagination -->
-<nav aria-label="Page navigation">
+<nav role="navigation" aria-label="Page navigation">
     <ul class="pagination justify-content-center mb-3">
         <li class="page-item">
             <a class="page-link" href="Creation.html" tabindex="-1">Previous</a>
@@ -278,6 +284,22 @@
         </li>
     </ul>
 </nav>
+
+<!-- Footer -->
+<footer role="contentinfo" class="container-fluid">
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <p><strong><a href="https://commons.wikimedia.org/wiki/File:US_v._Microsoft_Bill_Gates_Color.png"
+                          target="_blank">US v. Microsoft Bill Gates Color.png</a></strong>: This image is released into
+                the <a
+                        href="https://en.wikipedia.org/wiki/Public_domain" target="_blank">Public domain</a>.</p>
+            <p class="footer-font-color">Decorative image by <a href="https://www.pexels.com/photo/spider-web-34225/"
+                                                                target="_blank">Pixabay</a>.</p>
+        </div>
+    </div>
+    </div>
+</footer>
 
 </body>
 </html>

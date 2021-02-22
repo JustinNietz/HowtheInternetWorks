@@ -8,10 +8,23 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- My Style CSS -->
+    <!-- Style CSS -->
     <link rel="stylesheet" href="../css/style.css">
-
-    <title>My First Website</title>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <!--Tooltip JavaScript -->
+    <script src="../js/index.js"></script>
+    <!-- Title -->
+    <title>The Search Engine | The Invention of the Internet</title>
 </head>
 <body>
 
@@ -146,10 +159,11 @@
         </div>
         <div class="col-md-4">
             <div class="card topic-card" style="width: 25rem;">
-                <a href="#" target="_blank"><img
+                <a href="https://unsplash.com/photos/lKjX3S4pdog" target="_blank"><img
                         class="card-img-top" src="../images/Google.png" alt="Card image Google"></a>
                 <div class="card-body">
-                    <p class="card-text topic-img-card">Google in Sunnyvale, CA, at West Java Drive</p>
+                    <p class="card-text topic-img-card">Google in Sunnyvale, CA, at West Java Drive <br><a
+                            href="https://unsplash.com/photos/lKjX3S4pdog" target="_blank">by Greg Bulla</a></p>
                 </div>
             </div>
         </div>
@@ -235,7 +249,7 @@
 </div>
 
 <!-- Pagination -->
-<nav aria-label="Page navigation">
+<nav role="navigation" aria-label="Page navigation">
     <ul class="pagination justify-content-center mb-3">
         <li class="page-item">
             <a class="page-link" href="WWW.html" tabindex="-1">Previous</a>
@@ -252,17 +266,19 @@
     </ul>
 </nav>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+<!-- Footer -->
+
+<footer role="contentinfo" class="container-fluid">
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="footer-font-color">Decorative image by <a href="https://unsplash.com/photos/yeB9jDmHm6M"
+                                                                target="_blank">Edho Pratama</a>.</p>
+        </div>
+    </div>
+    </div>
+</footer>
+
 
 </body>
 </html>
