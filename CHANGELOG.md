@@ -1,7 +1,5 @@
 # Changelog
 
-## [Unreleased](https://github.com/JustinNietz/HistoryOfTheInternet/tree/HEAD)
-
 [Full Changelog](https://github.com/JustinNietz/HistoryOfTheInternet/compare/420697ada06fd273d93b058e49b75cb1bf3bad6f...HEAD)
 
 **Merged pull requests:**
