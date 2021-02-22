@@ -10,7 +10,19 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- My Style CSS -->
     <link rel="stylesheet" href="../css/style.css">
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <!--Tooltip JavaScript -->
+    <script src="../js/index.js"></script>
     <title>My First Website</title>
 </head>
 <body>
@@ -52,59 +64,199 @@
 </nav>
 
 
-
 <!--Title of Topic -->
-<div class="www-bg about-pg">
-    <div class="bg"></div>
+<div class="topic-bg about-pg">
+    <div class="www-bg"></div>
     <h1 class="www-title about-pg">The Creation of the World Wide Web</h1>
-    </div>
+</div>
 
 <!-- Content -->
 <div class="container text-bg-color">
     <div class="row info-push">
         <div class="col-md-8">
-            <h2>Why was this made?</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Pharetra massa massa ultricies mi quis hendrerit. Ac auctor augue mauris augue
-                neque
-                gravida in fermentum et. Varius duis at consectetur lorem donec massa sapien. Scelerisque eleifend donec
-                pretium vulputate sapien nec sagittis aliquam malesuada. A scelerisque purus semper eget duis at tellus
-                at.
-                Ultricies leo integer malesuada nunc vel risus commodo viverra. Eget dolor morbi non arcu risus quis
-                varius.
-                Mi quis hendrerit dolor magna eget est lorem ipsum. Enim sed faucibus turpis in eu. Suspendisse potenti
-                nullam ac tortor vitae purus faucibus. Elit sed vulputate mi sit amet mauris. Elementum nisi quis
-                eleifend
-                quam adipiscing vitae proin sagittis. Scelerisque felis imperdiet proin fermentum leo vel. Suscipit
-                tellus
-                mauris a diam maecenas sed enim. Consequat mauris nunc congue nisi vitae suscipit tellus mauris.
+            <p class="topic-push">
+                <em>The internet age began with a vicious power struggle to decide who would control the future of the
+                    just
+                    emerging web, officially remembered as the <strong>Browser War</strong>.</em>
+            </p>
+            <p class="topic-push">
+                <em>Back then the web was very different. There were hardly any web pages and they consisted of nothing
+                    but
+                    line after line of boring text. There was hardly anything worth finding and no way to find it
+                    anyway.
+                    You had to be a big computer fanatic to find your way around the Internet.</em>
+
             </p>
         </div>
     </div>
-
-
     <div class="row">
         <div class="col-md-8">
-            <h2>About NJIT</h2>
-            <p>
-                Dignissim enim sit amet venenatis urna cursus eget. Curabitur vitae nunc sed velit dignissim sodales. At
-                lectus urna duis convallis convallis tellus id interdum. Vitae et leo duis ut diam quam nulla porttitor
-                massa. Euismod nisi porta lorem mollis aliquam ut porttitor. Vitae aliquet nec ullamcorper sit amet
-                risus.
-                Egestas dui id ornare arcu odio. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar.
-                Ac
-                turpis egestas integer eget aliquet nibh praesent. Volutpat est velit egestas dui id ornare arcu.
-                Pulvinar
-                etiam non quam lacus suspendisse faucibus interdum. Sollicitudin ac orci phasellus egestas. Ut placerat
-                orci
-                nulla pellentesque dignissim enim. Ante metus dictum at tempor commodo ullamcorper. Sed libero enim sed
-                faucibus turpis in eu mi.
+            <h2>The Creation of Mosaic</h2>
+            <p class="topic-push">
+                At the University of Illinois Computer Science, a student named <strong>Mark Andreessen</strong> had an
+                idea. He said
+                that “The internet was only really for academics, researchers and scientists, and there wasn’t anything
+                that ordinary people could do with it. But it was so useful to the people who were using it that I
+                figured everyone should be able to use it.”
+            </p>
+            <p class="topic-push">
+                With the help of friends, they worked to make the web more intuitive to use by adding images, pictures,
+                audio, and video capabilities. Their efforts created the world’s first graphical web browser, and in the
+                fall of 1993 they posted it, called <a href="#" data-toggle="tooltip" data-placement="right"
+                                                       title="This is Mark Andreessen’s first graphical web browser. It added features to the web that no one had before and made the browser look more graphically pleasing."><strong>Mosaic</strong>
+            </a>, online and made it free. For Mosaic to go truly public,
+                however, it needed a giant influx of cash.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>The Company Named Netscape</h2>
+            <p class="topic-push">
+                Jim Clark, a high school dropout who later in life became a Computer Science Professor at Stanford,
+                contacted Andreessen. He was considering starting a new software company and wanted Andreessen on board.
+                They plotted how to turn Mosaic into the basis of a business venture. They named their company Netscape
+                and even hired undergraduate students from the University of Illinois, where Andreessen was a student.
+            </p>
+            <p class="topic-push">
+                The web browser would change the world, but although Jim Clark may have grasped that insight, most
+                people didn’t, including Bill Gates.
+
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>The Microsoft Giant</h2>
+            <p class="topic-push">
+                <strong>Bill Gates</strong> created the most important and profitable company of them all. In two
+                decades, Microsoft had
+                established a near monopoly over <strong>PC operating systems</strong>, and it used that monopoly to
+                gain a vice-like
+                grip over the entire computer industry. His online system was called the <strong>Microsoft
+                Network</strong>.
+            </p>
+            <p class="topic-push">
+                Bill Gates’ story began in 1975 when at the age of 19 he dropped out of Harvard to start Microsoft with
+                his friend Paul Allen. Gates’ vision was simple and ambitious: a PC on every desktop in every home and
+                every office, and all running Microsoft software. By 1993 his dream was close to becoming a reality.
+                About <strong>90%</strong> of the world’s PCs were running Microsoft Windows. They played very rough
+                with their
+                competitors who created their own operating systems. They defeated companies such as Lotus, WordPerfect,
+                and even IBM were defeated.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Netscape vs. Microsoft</h2>
+            <p class="topic-push">
+                Netscape culturally already perceived Microsoft as the company to take out when all other companies at
+                the time were afraid to face them. On October 13, 1994 after months of coding, Netscape’s new browser,
+                <strong>Navigator</strong>, was released, and it was an instant success.
+            </p>
+            <p class="topic-push">
+                In the computer business, the companies that have the most power control what’s known as a
+                <a href="#" data-toggle="tooltip" data-placement="right"
+                   title="This is the software which other programs run on top."><strong>Software
+                    Platform</strong>
+                </a>,software
+                platform (the software which other programs run on top). With this near monopoly over the Windows
+                operating system, Microsoft controlled the ultimate platform.
+            </p>
+            <p class="topic-push">
+                With the release of Navigator, however, many in Silicon Valley began to imagine a different future where
+                the browser could be an alternative platform.
+
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Microsoft's Biggest Threat</h2>
+            <p class="topic-push">
+                The problem for Netscape was that Bill Gates now perceived the company to be the primary threat to their
+                continued dominance.
+            </p>
+            <p class="topic-push">
+                Gates dispatched a special group of envoys to Netscape’s headquarters. Each side had a separate take on
+                the meeting:
+            </p>
+            <ul>
+                <li class="topic-push">
+                    <strong>Microsoft version:</strong> Had this free roaming discussion with them about how we would
+                    work with Netscape,
+                    how would we work with them on web servers and browsers.
+                </li>
+                <li class="topic-push">
+                    <strong>Netscape version:</strong> Microsoft offered a deal to Netscape they couldn’t refuse; one
+                    million dollars
+                    were offered for unlimited access to all their technology. If they didn’t take it, Microsoft was
+                    just going to copy everything they did.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Microsoft's Revenge</h2>
+            <p class="topic-push">
+                Microsoft planned to drive Netscape to an early grave with a web browser of its own:  <a href="#" data-toggle="tooltip" data-placement="right"
+                   title="Microsoft’s take on the web browser that took elements of Netscape’s browser, but made it free."><strong>Internet Explorer</strong>
+                </a>.
+                Microsoft had advantages in building their browser, including vast finances and reserves of coding
+                talent. Gates also used his army of salesman to stop PC manufacturers from installing anything other
+                than Internet explorer by using dirty methods.
+            </p>
+            <p class="topic-push">
+                Netscape had to charge money for its browser, but Microsoft was able to give Internet Explorer away for
+                free. They were able to bundle it into the Windows OS. When Internet Explorer 4 (IE4), came out, the
+                Browser War was over. By September 1997, Microsoft had won. From that point on, it was all downhill for
+                Netscape. A year later, the company was acquired by a bigger company called <strong>America Online
+                (AOL)</strong>.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Microsoft in Court</h2>
+            <p class="topic-push">
+                In 1998, Rebeck launched an  <a href="#" data-toggle="tooltip" data-placement="right"
+                   title="This is the software which other programs run on top."><strong>Antitrust lawsuit</strong>
+                </a> against Microsoft on behalf of his clients, which included
+                Netscape. He accused them of using their monopoly to engage in a wide variety of predatory practices to
+                prevent consumers from accessing Netscape’s products.
+            </p>
+            <p class="topic-push">
+                In court, Gates lied about multiple topics, one of which included the meeting with Netscape. He stated
+                he had no knowledge of that meeting but then evidence came out of an email he sent his high-level staff
+                members about it. The federal judge over the case issued his verdict: guilty and recommended the company
+                be broken up causing its stock market value to drop by <em>thirty billion dollars overnight</em>.
+            </p>
+            <p class="topic-push">
+                Eventually, a federal appeals court, though it agreed with the judgement that Microsoft broke the law,
+                decided the verdict was too harsh and rescinded the order to split the company.
             </p>
         </div>
         <div class="col-md-4">
-            <h3>This section can be used for pictures</h3>
-            You can move this around by changing the col-md-# above
+            <div class="card topic-card" style="width: 25rem;">
+                <a href="https://commons.wikimedia.org/wiki/File:US_v._Microsoft_Bill_Gates_Color.png"
+                   target="_blank"><img
+                        class="card-img-top" src="../images/Gates.png" alt="Card image ARPANET"></a>
+                <div class="card-body">
+                    <p class="card-text topic-img-card">Gates during the deposition</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Conclusion</h2>
+            <p class="topic-push">
+                Although Microsoft won the war, the revolution sparked by Netscape unleashed a new generation of
+                startups companies like Google that have made Microsoft look old, clueless and lumbering just as
+                Microsoft did to IBM two decades ago.
+            </p>
         </div>
     </div>
 </div>
@@ -126,18 +278,6 @@
         </li>
     </ul>
 </nav>
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 
 </body>
 </html>
