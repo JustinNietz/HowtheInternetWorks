@@ -48,10 +48,13 @@ h1 {
 
 /* For toggle buttons */
 .button-push {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
+.button-center {
+    padding-top: 80px;
+}
 /* Sticky Footer CSS */
 footer {
     position: absolute;
@@ -63,6 +66,14 @@ footer {
 
 .footer-txt-push {
     padding-top: 15px;
+}
+
+.footer-push {
+    padding-top: 60px;
+}
+
+.footer-font-color {
+    color: #293241;
 }
 /* * * * Cards designs: https://bbbootstrap.com/snippets/simple-image-overlay-hover-effect-38877551 * * * */
 .radius {
@@ -116,14 +127,7 @@ img {
     background: #293241;
 }
 
-/* Footer design */
-.footer-push {
-    padding-top: 60px;
-}
 
-.footer-font-color {
-    color: #293241;
-}
 
 /* * * * * * * * * * Media Queries * * * * * * * * * */
 @media only screen and (min-width: 280px) {
