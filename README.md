@@ -4,7 +4,7 @@ This project was created for NJIT IS-601. The website serves as a brief history 
 
 ## Live Website
 
-### [How the Internet Works](https://justinnietz.github.io/HowTheInternetWorks/)
+### [How the Internet Works](https://justinnietz.github.io/HowtheInternetWorks/)
 
 ## HTML Section Pages
 
