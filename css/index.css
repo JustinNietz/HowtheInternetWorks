@@ -38,6 +38,10 @@ h1 {
     margin-bottom: 30px;
 }
 
+.button-push {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 /* * * * Cards designs: https://bbbootstrap.com/snippets/simple-image-overlay-hover-effect-38877551 * * * */
 .radius {
     border-radius: 15px;
