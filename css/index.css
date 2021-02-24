@@ -1,9 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
+/* For finding errors in padding/margins */
+/* * { border: 1px solid red; } */
+
 body {
     background-color: #eef4f7;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding-bottom: 100px;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -12,7 +20,7 @@ h1 {
     text-align: center;
     color: #293241;
     font-family: sans-serif;
-        padding-top: 70px;
+    padding-top: 70px;
     padding-bottom: 10px;
 }
 
@@ -38,9 +46,23 @@ h1 {
     margin-bottom: 30px;
 }
 
+/* For toggle buttons */
 .button-push {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+/* Sticky Footer CSS */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #293241;
+}
+
+.footer-txt-push {
+    padding-top: 15px;
 }
 /* * * * Cards designs: https://bbbootstrap.com/snippets/simple-image-overlay-hover-effect-38877551 * * * */
 .radius {
@@ -144,10 +166,10 @@ img {
     }
 }
 
-@media screen and (max-width:500px) {
-h1 {
-font-size: 45px;
-}
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 45px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -188,7 +210,7 @@ font-size: 45px;
         bottom: 0;
         left: 0;
         right: 0;
-      /*  background-image: url(/../HowtheInternetWorks/images/Index_picture.png); */
+        /*  background-image: url(/../HowtheInternetWorks/images/Index_picture.png); */
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

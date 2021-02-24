@@ -10,17 +10,6 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Index CSS -->
     <link rel="stylesheet" href="css/index.css">
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
     <!-- Title -->
     <title>Home | The Internet (working title)</title>
 </head>
@@ -75,7 +64,7 @@
 </nav>
 
 <!-- Title of Index -->
-<header role="banner" class="internet-bg">
+<header role="banner" class="internet-bg wrapper flex-grow-1">
     <div class="int-bg"></div>
     <h1 class="index-pg">Working title</h1>
     <p class="intro-state sub-font lead">working description.<i> Click on a button to get started.</i></p>
@@ -83,13 +72,14 @@
 
 <!-- Toggle button for History of the Internet -->
 <div class="container button-push">
-    <button data-toggle="collapse" type="button" class="btn btn-primary btn-lg btn-block dropdown-toggle" data-target="#history">The
+    <button data-toggle="collapse" type="button" class="btn btn-primary btn-lg btn-block dropdown-toggle"
+            data-target="#history">The
         History of the Internet
     </button>
 </div>
 
 <!-- History Hover Cards -->
-<div id="history" class="collapse gle">
+<div id="history" class="collapse in">
     <main role="main" class="container card-bg-color radius">
         <div class="row">
             <div class="col-md-4">
@@ -160,12 +150,13 @@
 
 <!-- Toggle button for How the Internet works -->
 <div class="container button-push">
-    <button data-toggle="collapse" type="button" class="btn btn-primary btn-lg btn-block dropdown-toggle" data-target="#works">How the Internet Works
+    <button data-toggle="collapse" type="button" class="btn btn-primary btn-lg btn-block dropdown-toggle"
+            data-target="#works">How the Internet Works
     </button>
 </div>
 
 <!-- How the Internet works Hover Cards -->
-<div id="works" class="collapse gle">
+<div id="works" class="collapse in">
     <main role="main" class="container card-bg-color radius">
         <div class="row">
             <div class="col-md-4">
@@ -235,20 +226,31 @@
 </div>
 
 <!-- Footer -->
-<footer role="contentinfo" class="text-muted footer-push">
-    <hr>
+<footer role="contentinfo">
     <div class="container">
-        <div class="row">
+        <div class="row footer-txt-push">
             <div class="col-md-6">
-                <p class="footer-font-color text-left">Created by Justin Nietzer and Nikolett Muller</p>
-            </div>
-            <div class="col-md-6">
-                <p class="footer-font-color text-right">Decorative image by <a
-                        href="https://unsplash.com/photos/FewHpO4VC9Y" target="_blank">Umberto</a>.</p>
-            </div>
+            <p class="text-left text-muted"> &#169; Justin Nietzer</p>
+        </div>
+        <div class="col-md-6">
+            <p class="text-right text-muted">Decorative image by <a
+                    href="https://unsplash.com/photos/FewHpO4VC9Y" target="_blank">Umberto</a>.</p>
         </div>
     </div>
+    </div>
 </footer>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 </body>
 </html>
