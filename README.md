@@ -1,29 +1,15 @@
-# A Brief History of the Internet
+# How the Internet Works
 
-This project was created for NJIT IS-601. The website serves as a brief history guide to the formation of the internet.
+This project was created for NJIT IS-601. The website serves as a brief history guide for how the internet works. This is an add-on to the existing repository: **[HistoryOfTheInternet](https://github.com/JustinNietz/HistoryOfTheInternet)**
 
 ## Live Website
 
-### [A Brief History of the Internet](https://justinnietz.github.io/HistoryOfTheInternet/)
+### [How the Internet Works](https://justinnietz.github.io/HowTheInternetWorks/)
 
 ## HTML Section Pages
 
 ### [Home Page](index.html)
 ### [About](about.html)
-### [Team](team.html)
-
-
-**[Invention of the Internet](topics/Creation.html)**
-
-**[Creation of the World Wide Web](topics/WWW.html)**
-
-**[The Search Engine](topics/Search.html)**
-
-**[Age of E-Commerce](topics/E-commerce.html)**
-
-**[Communication Uprising](topics/Communication.html)**
-
-**[Glossary](topics/Glossary.html)**
 
 ## Changelog 
 
