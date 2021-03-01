@@ -44,7 +44,7 @@
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         The History
                     </a>
-                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="../History/Creation.html">The Invention of the Internet</a>
                         <a class="dropdown-item" href="../History/WWW.html">The Creation of the World Wide Web</a>
                         <a class="dropdown-item" href="../History/Search.html">The Search Engine</a>
@@ -88,54 +88,72 @@
     <div class="row info-push">
         <div class="col-md-8">
             <p class="topic-push">
-                <i>Each topic should be introduced with the concept/definition, followed by some examples and a
-                    section explaining why we use them. </i>
+                <i>
+                    The Internet is a design philosophy expressed in a set of protocols. When we talk about a protocol,
+                    we
+                    think of a <em>well-known set of rules and standards</em> that are used for communication between
+                    machines. If
+                    all parties agree on using the same protocol, then this agreement will allow them all to communicate
+                    without any trouble. Furthermore, this design helps to adopt new technologies in the future.</i>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>HTTP Protocol</h2>
+            <p class="topic-push">
+                How could all computers in the whole world access the Internet and communicate with each other? Let us
+                go through the steps. Firstly, we need to <em>choose a <strong>web browser</strong></em> and open it.
+                Our next task to <em>type a <strong>web address</strong> or <strong>URL</strong></em> (Uniform Resource
+                Locator) of the website we would like to
+                visit. After giving the proper web address, our computer gets in touch with a so-called
+                <strong>server</strong>; in just a couple of
+                milliseconds, <em>our computer gets a response from the server in HTTP</em> (Hyper Text Transfer
+                Protocol) language. This
+                language is used for communication between web browsers and servers. The conversation between our
+                computer and
+                the server are <em>mainly <strong>“GET” requests</strong></em>. In this type of request, we are asking
+                simply for a <em>specific document written in HTML</em> (Hyper Text Markup Language). The text on a
+                website is already included in
+                the HTML, however other elements like <em>images or videos are separate files</em> with their unique
+                URLs.
+                Each element needs a “GET” request to appear properly on the webpage. If there are too many “GET”
+                requests at
+                once, we can experience that <em>the website loads extremely slowly</em>.
+            </p>
+            <p class="topic-push">
+                A “GET” request looks like this.
+                <code>
+                    </br>
+                    GET /hello.htm HTTP/1.1<br>
+                    User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)<br>
+                    Host: www.tutorialspoint.com<br>
+                    Accept-Language: en-us<br>
+                    Accept-Encoding: gzip, deflate<br>
+                    Connection: Keep-Alive
+                </code>
+            </p>
+            <p class="topic-push">
+                Occasionally, <em>we send information too</em>, for example, when we fill out a form or type a keyword
+                into the
+                search bar. These actions require a <strong>“POST” request</strong> to the server. Let us look at an
+                example. We would
+                like to log in to our Spotify account to listen to some music. To do that, we need to give our email
+                address and password. This means that our computer or smartphone needs to send <em>a “POST” request with
+                the
+                given information</em> to Spotify’s server. If we sent the correct data for login, the server would let
+                us
+                into our Spotify account successfully. But <em>during the response, our computer gets a cookie</em>
+                which will
+                help us log in the next time without this whole process. This cookie acts as an ID card; it identifies
+                us immediately.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <p class="topic-push">
 
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8">
-            <h2>Definition</h2>
-            <p class="topic-push">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Nisl tincidunt eget nullam non nisi est sit. Dictum fusce ut placerat orci nulla
-                pellentesque. Sapien et ligula ullamcorper malesuada proin libero. Sed libero enim sed faucibus turpis
-                in eu mi bibendum. Id eu nisl nunc mi ipsum faucibus. Morbi tristique senectus et netus et malesuada
-                fames. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Integer feugiat
-                scelerisque varius morbi enim nunc faucibus. Neque egestas congue quisque egestas diam. Risus nullam
-                eget felis eget nunc lobortis mattis aliquam. Mattis molestie a iaculis at erat pellentesque adipiscing
-                commodo. Velit aliquet sagittis id consectetur purus ut. Aliquam nulla facilisi cras fermentum odio.
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8">
-            <h2>Examples</h2>
-            <p class="topic-push">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Nisl tincidunt eget nullam non nisi est sit. Dictum fusce ut placerat orci nulla
-                pellentesque. Sapien et ligula ullamcorper malesuada proin libero. Sed libero enim sed faucibus turpis
-                in eu mi bibendum. Id eu nisl nunc mi ipsum faucibus. Morbi tristique senectus et netus et malesuada
-                fames. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Integer feugiat
-                scelerisque varius morbi enim nunc faucibus. Neque egestas congue quisque egestas diam. Risus nullam
-                eget felis eget nunc lobortis mattis aliquam. Mattis molestie a iaculis at erat pellentesque adipiscing
-                commodo. Velit aliquet sagittis id consectetur purus ut. Aliquam nulla facilisi cras fermentum odio.
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8">
-            <h2>Why we use HTTP and HTTPS protocols</h2>
-            <p class="topic-push">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Nisl tincidunt eget nullam non nisi est sit. Dictum fusce ut placerat orci nulla
-                pellentesque. Sapien et ligula ullamcorper malesuada proin libero. Sed libero enim sed faucibus turpis
-                in eu mi bibendum. Id eu nisl nunc mi ipsum faucibus. Morbi tristique senectus et netus et malesuada
-                fames. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Integer feugiat
-                scelerisque varius morbi enim nunc faucibus. Neque egestas congue quisque egestas diam. Risus nullam
-                eget felis eget nunc lobortis mattis aliquam. Mattis molestie a iaculis at erat pellentesque adipiscing
-                commodo. Velit aliquet sagittis id consectetur purus ut. Aliquam nulla facilisi cras fermentum odio.
             </p>
         </div>
     </div>
@@ -194,7 +212,8 @@
         <div class="col-md-4">
             <div class="card topic-card" style="width: 25rem;">
                 <a href="https://commons.wikimedia.org/wiki/File:Interface_Message_Processor_Front_Panel.jpg"
-                   target="_blank"><img class="card-img-top" src="../../images/History/IMP.jpg" alt="Card image IMP"></a>
+                   target="_blank"><img class="card-img-top" src="../../images/History/IMP.jpg"
+                                        alt="Card image IMP"></a>
                 <div class="card-body">
                     <p class="card-text topic-img-card">Photo of the very first IMP</p>
                 </div>
