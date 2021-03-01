@@ -245,6 +245,13 @@ h1, .topic-img-card {
     padding-top: 30px;
 }
 
+.link-font {
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
 /* Alignment of paragraph from left side */
 .topic-push {
     padding-left: 15px;
