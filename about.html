@@ -10,6 +10,8 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Team CSS -->
+    <link rel="stylesheet" href="css/team.css">
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -59,7 +61,8 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="topics/Works/domain_ICANN.html">Domain names and ICANN</a>
-                        <a class="dropdown-item" href="topics/Works/IP_packets.html">IP Addresses, Packets and Routing</a>
+                        <a class="dropdown-item" href="topics/Works/IP_packets.html">IP Addresses, Packets and
+                            Routing</a>
                         <a class="dropdown-item" href="topics/Works/DNS.html">DNS</a>
                         <a class="dropdown-item" href="topics/Works/HTTP.html">HTTP and HTTPS protocols</a>
                         <a class="dropdown-item" href="topics/Works/W3C_HTML_CSS.html">W3C and HTML and CSS</a>
@@ -110,16 +113,51 @@
     </div>
 </main>
 
-<!-- Footer -->
-<footer role="contentinfo" class="text-muted footer-color">
-    <div class="container-fluid">
-        <div class="row footer-txt-push">
-            <div class="col-md-12 col-sm-12 col-lg-12">
-                <p class="text-center text-muted"> &#169; Justin Nietzer</p>
+<!-- Toggle button for How the Internet works -->
+<section role="banner" class="container button-push">
+    <button data-toggle="collapse" type="button" class="btn btn-secondary btn-lg btn-block dropdown-toggle"
+            data-target="#team">Meet the Team
+    </button>
+</section>
+
+<!-- Team cards -->
+<section role="banner" id="team"  class="collapse in team-boxed team-push">
+    <div class="container">
+        <div class="row people">
+            <div class="col-md-6 col-lg-6 item">
+                <div class="box"><img class="rounded-circle" src="images/History/Justin.JPG">
+                    <h3 class="name">Justin Nietzer</h3>
+                    <p class="title">Student</p>
+                    <p class="description">Pursuing a career in Software Development through the New Jersey Institute of
+                        Technology. </p>
+                    <div class="social"><a href="https://www.linkedin.com/in/justin-nietzer-149195127/" target="_blank"><i
+                            class="fa fa-linkedin"></i></a><a href="https://github.com/JustinNietz" target="_blank"><i
+                            class="fa fa-github"></i></a></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 item">
+                <div class="box"><img class="rounded-circle" src="images/History/Photo_Fix.JPG">
+                    <h3 class="name">Nikolett Muller</h3>
+                    <p class="title">Student</p>
+                    <p class="description">Master of Information Systems student at New Jersey Institute of
+                        Technology</p>
+                    <div class="social"><a href="https://www.linkedin.com/in/nikolett-muller-2514a6207/"
+                                           target="_blank"><i class="fa fa-linkedin"></i></a><a
+                            href="https://github.com/LadyObserver85" target="_blank"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row footer-txt-push footer">
-            <div class="col-md-12 col-sm-12 col-lg-12">
+    </div>
+</section>
+
+<!-- Footer -->
+<footer role="contentinfo" class="text-muted">
+    <br>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
                 <p class="text-center text-muted">Decorative image by <a
                         href="https://www.pexels.com/photo/woman-in-red-long-sleeve-writing-on-chalk-board-3769714/"
                         target="_blank">Andrea Piacquadio</a>.</p>
