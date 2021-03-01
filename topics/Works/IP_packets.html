@@ -24,7 +24,7 @@
     <!--Tooltip JavaScript -->
     <script src="../../js/index.js"></script>
     <!-- Title -->
-    <title>IP Addresses, Packets and Routing | The History of the Internet</title>
+    <title>IP Addresses, Packets and Routing | Reference Guide to the Internet</title>
 </head>
 <body>
 
@@ -44,7 +44,7 @@
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         The History
                     </a>
-                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="../History/Creation.html">The Invention of the Internet</a>
                         <a class="dropdown-item" href="../History/WWW.html">The Creation of the World Wide Web</a>
                         <a class="dropdown-item" href="../History/Search.html">The Search Engine</a>
@@ -87,193 +87,144 @@
 <main role="main" class="container text-bg-color">
     <div class="row info-push">
         <div class="col-md-8">
+            <h2>What is an IP Address?</h2>
             <p class="topic-push">
-                <i>Each topic should be introduced with the concept/definition, followed by some examples and a
-                    section explaining why we use them. </i>
+                An <strong class="definition">IP Address</strong> is a single computer’s address on the internet. This
+                address is just a number, similar to a
+                phone number, that is unique to each computer or device at the edge of the network. It forms part of one
+                of the most important protocols used in internet communication called the internet protocol (IP).
+            </p>
+            <p class="topic-push">
+                An IP address is a bunch of numbers organized in a hierarchy. Each of the numbers are represented in
+                bits. IP Addresses are 32 bits long with 8 bits for each part of the address. This version, called IPv4,
+                provides more than 4 billion unique addresses for devices connected to the internet.
+            </p>
+            <p class="topic-push">
+                Four billion, however, won’t be enough in the near future! We are currently in a multi-year transition
+                to a longer IP address format called IPv6 which uses 128 bits per address, provides <strong>340</strong>
+                <em>undecillion</em>
+                unique addresses.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>What is a Packet?</h2>
+            <p class="topic-push">
+                If you have a very large image that you want to send over the internet, that image is made up of tens of
+                millions of bits or 1s and 0s, too many to send in one packet. The computer sending the image can
+                quickly break it up into hundreds or thousands of smaller parts called packets.</p>
 
+            <p class="topic-push">A <strong class="definition">Packet</strong> – made up of binary – is a sequence of 1s
+                and 0s sent physically through wired and wireless
+                networks. Packets don’t
+                choose their routes through the distributed network. Each packet only has the internet address of where
+                it came from and where its going.
             </p>
         </div>
     </div>
     <div class="row">
         <div class="col-md-8">
-            <h2>Definition</h2>
+            <h2>What is a Router?</h2>
             <p class="topic-push">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Nisl tincidunt eget nullam non nisi est sit. Dictum fusce ut placerat orci nulla
-                pellentesque. Sapien et ligula ullamcorper malesuada proin libero. Sed libero enim sed faucibus turpis
-                in eu mi bibendum. Id eu nisl nunc mi ipsum faucibus. Morbi tristique senectus et netus et malesuada
-                fames. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Integer feugiat
-                scelerisque varius morbi enim nunc faucibus. Neque egestas congue quisque egestas diam. Risus nullam
-                eget felis eget nunc lobortis mattis aliquam. Mattis molestie a iaculis at erat pellentesque adipiscing
-                commodo. Velit aliquet sagittis id consectetur purus ut. Aliquam nulla facilisi cras fermentum odio.
+                Special computers on the internet called <strong class="definition">Routers</strong> act like traffic
+                managers to keep packets moving
+                smoothly. If one route is congested, individual packets may travel different routes through the internet
+                and they arrived at the destination at slightly different times or even out of order.
             </p>
-        </div>
-    </div>
-       <div class="row">
-        <div class="col-md-8">
-            <h2>Examples</h2>
             <p class="topic-push">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Nisl tincidunt eget nullam non nisi est sit. Dictum fusce ut placerat orci nulla
-                pellentesque. Sapien et ligula ullamcorper malesuada proin libero. Sed libero enim sed faucibus turpis
-                in eu mi bibendum. Id eu nisl nunc mi ipsum faucibus. Morbi tristique senectus et netus et malesuada
-                fames. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Integer feugiat
-                scelerisque varius morbi enim nunc faucibus. Neque egestas congue quisque egestas diam. Risus nullam
-                eget felis eget nunc lobortis mattis aliquam. Mattis molestie a iaculis at erat pellentesque adipiscing
-                commodo. Velit aliquet sagittis id consectetur purus ut. Aliquam nulla facilisi cras fermentum odio.
+                As part of the internet protocol, every router keeps track of multiple paths for sending packets. It
+                chooses the cheapest available path for each piece of data based on destination IP address for the
+                packet. Cheapest means time and non-technical factors such as politics and relationships between
+                companies.
             </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8">
-            <h2>Why we use IP Addresses, Packets and Routing</h2>
             <p class="topic-push">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Nisl tincidunt eget nullam non nisi est sit. Dictum fusce ut placerat orci nulla
-                pellentesque. Sapien et ligula ullamcorper malesuada proin libero. Sed libero enim sed faucibus turpis
-                in eu mi bibendum. Id eu nisl nunc mi ipsum faucibus. Morbi tristique senectus et netus et malesuada
-                fames. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Integer feugiat
-                scelerisque varius morbi enim nunc faucibus. Neque egestas congue quisque egestas diam. Risus nullam
-                eget felis eget nunc lobortis mattis aliquam. Mattis molestie a iaculis at erat pellentesque adipiscing
-                commodo. Velit aliquet sagittis id consectetur purus ut. Aliquam nulla facilisi cras fermentum odio.
+                Often the best route for data to travel isn’t the most direct. Having options for paths makes the
+                network fault tolerant, which means the networks can keep sending packets even if something goes
+                horribly wrong.
             </p>
         </div>
     </div>
 
     <div class="row">
         <div class="col-md-8">
-            <h2>Telephones and Packets</h2>
-            <p class="topic-push">
-                The telephone system became another catalyst for the creation of the Internet. If the connection path
-                between a telephone call is broken, the connection is cut off. This weakness became a matter of national
-                security in the early 1960s as they feared a Soviet attack which would cripple their communications in
-                effective retaliation. <strong>Dr. Paul Baran</strong>, who was hired to fix this problem, helped to
-                create <strong>Hot Potato Routing</strong>, which meant a message transiting a network got to where it
-                was going even if part of the network was destroyed.
-            </p>
-            <p class="topic-push">
-                This routing led to
-                <a href="#" data-toggle="tooltip" data-placement="right"
-                   title="Created in case the telephone line connection was cut off, there would still be a way to communicate."><strong>Packet
-                    Switching</strong>
-                </a>
-                Packet Switching. The network chops up a document into a lot of pieces (packets).
-                Each packet was like a postcard with a to and from address that would get launched into the network and
-                operate independently. The final destination takes all these packets and puts them back into a long
-                document at the end. This design for a network, a Packet Switching Network, gets its message through
-                better than telephones <em>as long as some part of the network</em> functions.
-            </p>
+            <h2>Step-by-Step: How an Internet Message is sent</h2>
+            <ol class="topic-push">
+                <li>Data being sent is divided into packets (Max size = <strong class="pag-font">64K, 65535</strong>
+                    bytes)
+                </li>
+                <li>Packet has a header with some technical information and a FROM address, TO address and the actual
+                    data. Each header is 60 bytes
+                </li>
+                <li>Packets divided in to multiple parts contain the order of the packet</li>
+                <li>Packets move on the Internet along different paths each taking different times</li>
+                <li>Packets are reordered</li>
+                <li>Received packets are acknowledged back to the sender</li>
+                <li>Sender resends packets that do not acknowledge</li>
+            </ol>
         </div>
     </div>
     <div class="row">
         <div class="col-md-8">
-            <h2>Bob Taylor’s Frustrations</h2>
-            <p class="topic-push">
-                The first computer networks stem from the frustrations of a single ARPA scientist, Bob Taylor, who
-                needed a separate terminal to log into each of several <strong>time-shared</strong> computers at
-                research centers across the country. He knew a single terminal would suffice if all the computers were
-                in a common <strong>network</strong>.
-            </p>
-            <p class="topic-push">
-                Taylor was given a million dollars to work on this problem where he recruited Larry Roberts, who built
-                the world’s first experimental connection between two computers. Roberts was inspired by a fellow
-                engineer, who suggested building identical special-purpose mini computers, called <strong>Interface
-                Messaging Processors</strong> (
-                <a href="#" data-toggle="tooltip" data-placement="right"
-                   title="Interface Messaging Processors that would be connected to computers to form the first internet network."><strong>IMPs</strong>
-                </a>
-                ), to form the network and tie each computer to one of them.
-            </p>
-            <p class="topic-push">
-                He sought out the engineers to build the Advance Research Projects Agency’s computer network, the
-                <strong>ARPANET</strong>. The plan was to network 4 identical IMPs. Each one would be attached to a
-                different kind of mainframe computer at three different universities across California and one
-                in Utah.</p>
+            <h2>Examples of IP Addresses</h2>
+            <div>
+                <a href="https://commons.wikimedia.org/wiki/File:Ipv4_address.svg"
+                   target="_blank"><img class="card-img-top" src="../../images/Works/IPv4.png" height="400"
+                                        alt="IPv4"></a>
+                <p class="topic-push">The image above is an example of a IPv4 address.</p>
+            </div>
+            <div>
+                <a href="https://commons.wikimedia.org/wiki/File:Ipv6_address.svg"
+                   target="_blank"><img class="card-img-top" src="../../images/Works/IPv6.png" height="400"
+                                        alt="IPv6"></a>
+                <p class="topic-push">The image above is an example of a IPv6 address.</p>
+            </div>
+            <div>
+                <img src="../../images/Works/IP_address.png" alt="ipconfig /all in git bash" width="450" height="500">
+                <p class="topic-push">The image above is the command <strong>ipconfig /all</strong>
+                    or <strong>ipconfig -all</strong>. This shows you your local connection and shows
+                    MAC address, etc.</p>
+
+            </div>
+            <p class="topic-push link-font"><a href="http://ip4.me/" target="_blank">ip4.me</a></p>
+            <p class="topic-push">This is a clickable link that brings you to a website to show you your
+                <strong>IPv4</strong> or <strong>IPv6</strong> address.
         </div>
-        <div class="col-md-4">
-            <div class="card topic-card" style="width: 25rem;">
-                <a href="https://commons.wikimedia.org/wiki/File:Interface_Message_Processor_Front_Panel.jpg"
-                   target="_blank"><img class="card-img-top" src="../../images/History/IMP.jpg" alt="Card image IMP"></a>
-                <div class="card-body">
-                    <p class="card-text topic-img-card">Photo of the very first IMP</p>
-                </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Examples of Packets</h2>
+            <div>
+                <img src="../../images/Works/ping_ny.JPG" alt="ping to nytimes.com">
+                <p class="topic-push">The image above is the command <strong>ping nytimes.com</strong>. The command
+                    <strong>ping</strong> sends test packets to a website. In this case, we are sending test packets to
+                    nytimes.com</p>
+
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-md-8">
-            <h2>BBN and IMPS and Grad Students</h2>
+            <h2>Why do we use IP Addresses, Packets, and Routing?</h2>
             <p class="topic-push">
-                A small Cambridge Massachusetts company known as <strong>BBN</strong> won the contract and went to work
-                building the IMPs
-                for the ARPANET on January 1st, 1969. Both BBN and UCLA were under a tight deadline. Writing the code to
-                have the computers communicate with the IMPs were left to the graduate students or staff members. There
-                was concern with the phone lines, which were built for voice traffic and not data or running the
-                mainframe computers nonstop. By the end of 1969, all four sites were interconnected and had worked the
-                way it was intended.
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8">
-            <h2>ARPANET</h2>
-            <p class="topic-push">
-                In April 1971, the ARPANET had 18 mainframe computers hooked into the network. At first there was not
-                much to do beyond transferring data files among its members. Then, a new capability was added that
-                would take the usefulness of computer networking to a new level. Raymond Tomlinson created this killer
-                application called email. Tomlinson gave the world the @ sign.
+                The key principle of the internet is reliability. The internet is really a design philosophy and an
+                architecture expressed in a set of protocols. A <strong>Protocol</strong> is a well-known set of rules
+                and standards used
+                to communicate between machines. If all parties agree to use it, it will allow them all the communicate
+                without trouble.
             </p>
             <p class="topic-push">
-                Internet begun in 1969 as an experimental computer network. Anyone could contribute ideas about its use
-                and how to improve it. Ideas were offered as requests for comments so everyone would free feel to
-                discuss and criticize them. By 1972 the ARPANET had fewer than 25 sites online, yet more were coming.
-                What sparked the increase was the first international conference on computers and communication
-                sponsored by ARPA.
-            </p>
-        </div>
-        <div class="col-md-4">
-            <div class="card topic-card" style="width: 25rem;">
-                <a href="https://commons.wikimedia.org/wiki/File:Arpanet_1974.svg" target="_blank"><img
-                        class="card-img-top" src="../../images/History/Arpanet.png" alt="Card image ARPANET"></a>
-                <div class="card-body">
-                    <p class="card-text topic-img-card">The ARPANET network map in 1974</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8">
-            <h2>Networks</h2>
-            <p class="topic-push">
-                Soon other networks emerged. <strong>LAN</strong> (local area networks) linked computers throughout
-                offices; <strong>WAN</strong> (wide
-                area networks) linked computers across buildings or campuses. Each new network was like a foreign
-                country speaking its own language and independent of one another. They needed a common protocol for them
-                to communicate.
+                The transmission control protocol (TCP) manages the sending and receiving of all your data as packets.
+                Think of it like a guaranteed mail service. When you request a song of your device, Spotify sends the
+                song broken up into many packets. When your packets arrive, TCP does a full inventory and sends back
+                acknowledgements of each packet received. If all packets are there, TCP signs for delivery and you’re
+                done. If it finds some packets are missing, it wont sign. For each missing or incomplete packet, Spotify
+                will resend them.
             </p>
             <p class="topic-push">
-                In 1973, <strong>Ben Cerf</strong> and <strong>Bob Kahn</strong> teamed up to develop a set of rules or
-                procedures known as the
-                <a href="#" data-toggle="tooltip" data-placement="right"
-                   title="A set of rules or procedures that computer networks would have to follow to allow them to pass their message back and forth."><strong>TCP/IP
-                    protocol</strong>
-                </a>
-                and if followed by different computer networks, would allow them to pass their message packets
-                back and forth. The <strong>Gateway</strong>, as Cerf and Kahn named it, knew how to talk to each of the
-                networks it was
-                connected to. In 1983 TCP/IP was adopted as a standard.
-            </p>
-            <p class="topic-push">
-                Under 1980s technology it was difficult to research a topic. Tim Berners-Lee, a physicist at the CERN
-                Research Institute in Switzerland developed the software to follow threads of knowledge more easily
-                within the information stored throughout the internet. By using a computer mouse to click on a word or
-                phrase linked across the Internet, one could instantaneously follow a link from site to site around the
-                web in pursuit of a topic. The crisscrossing of these threads across the globe reminded him of a web so
-                he named his invention the World Wide Web.
-            </p>
-            <p class="topic-push">
-                On June 9, 1992, Congress passed a bill taking the Internet out of the exclusive hands of government and
-                into the public. The Internet had crossed the Rubicon.
+                What’s great about the TCP and Router systems is they are scalable. They can work with 8 devices or 8
+                billion devices. Because of these principles of fault tolerant and redundancy the more routers we add,
+                the more reliable the internet becomes.
             </p>
         </div>
     </div>
