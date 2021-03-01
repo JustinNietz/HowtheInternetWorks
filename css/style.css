@@ -263,14 +263,12 @@ h1, .topic-img-card {
     border-width: 6px;
 }
 
+.definition {
+    font-size: 20px;
+}
 .topic-push {
     padding-left: 15px;
     line-height: 2;
-}
-
-/* Videos in about */
-.video-push {
-    padding-left: 75px;
 }
 
 /* Sticky Footer CSS */
