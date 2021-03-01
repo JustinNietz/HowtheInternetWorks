@@ -252,6 +252,9 @@ h1, .topic-img-card {
     text-align: center;
 }
 
+.pag-font {
+    font-family: 'arial';
+}
 /* Alignment of paragraph from left side */
 .topic-push {
     padding-left: 15px;
