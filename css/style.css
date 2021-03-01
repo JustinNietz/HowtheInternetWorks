@@ -59,7 +59,7 @@ h1, .topic-img-card {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(/images/History/web_bg.jpg) center center;
+    background: url(../images/History/web_bg.jpg) center center;
     opacity: 0.3;
     width: 100%;
     height: 100%;
@@ -72,7 +72,7 @@ h1, .topic-img-card {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(/images/History/network_bg.jpg);
+    background: url(../images/History/network_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -88,7 +88,7 @@ h1, .topic-img-card {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(/images/History/search_bg.jpg);
+    background: url(../images/History/search_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -104,7 +104,7 @@ h1, .topic-img-card {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(/images/History/ecommerce_bg.jpg);
+    background: url(../images/History/ecommerce_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -120,7 +120,7 @@ h1, .topic-img-card {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(/images/History/uprising.jpg) center center;
+    background: url(../images/History/uprising.jpg) center center;
     opacity: 0.5;
     width: 100%;
     height: 100%;
@@ -133,7 +133,7 @@ h1, .topic-img-card {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(/images/History/glossary_bg.jpg);
+    background: url(../images/History/glossary_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -149,7 +149,7 @@ h1, .topic-img-card {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(/images/History/team.jpg);
+    background: url(../images/History/team.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -165,7 +165,7 @@ h1, .topic-img-card {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(/images/History/design.jpg);
+    background: url(../images/History/design.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
