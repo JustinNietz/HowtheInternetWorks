@@ -29,6 +29,10 @@ h1 {
     background-color: #293241;
 }
 
+.btn-secondary {
+    background-color: #293241;
+    border-color: #293241;
+}
 /* Alignment of Background image */
 .internet-bg {
     z-index: 5;
