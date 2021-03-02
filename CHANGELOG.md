@@ -1,55 +1,16 @@
-# Changelog
+## Changelog
 
-[Full Changelog](https://github.com/JustinNietz/HistoryOfTheInternet/compare/420697ada06fd273d93b058e49b75cb1bf3bad6f...HEAD)
-
-**Merged pull requests:**
-
-- Bug: fixed title size on mobiles [\#45](https://github.com/JustinNietz/HistoryOfTheInternet/pull/45) ([JustinNietz](https://github.com/JustinNietz))
-- Task: added credit to footer [\#44](https://github.com/JustinNietz/HistoryOfTheInternet/pull/44) ([JustinNietz](https://github.com/JustinNietz))
-- Task: added footer [\#43](https://github.com/JustinNietz/HistoryOfTheInternet/pull/43) ([JustinNietz](https://github.com/JustinNietz))
-- Task: added footer [\#42](https://github.com/JustinNietz/HistoryOfTheInternet/pull/42) ([JustinNietz](https://github.com/JustinNietz))
-- Task: added footer, italics to paragraph [\#41](https://github.com/JustinNietz/HistoryOfTheInternet/pull/41) ([JustinNietz](https://github.com/JustinNietz))
-- Fix: fixed paragraph style [\#40](https://github.com/JustinNietz/HistoryOfTheInternet/pull/40) ([JustinNietz](https://github.com/JustinNietz))
-- Feature: Added info and pictures to search [\#39](https://github.com/JustinNietz/HistoryOfTheInternet/pull/39) ([JustinNietz](https://github.com/JustinNietz))
-- Task:added credit [\#38](https://github.com/JustinNietz/HistoryOfTheInternet/pull/38) ([JustinNietz](https://github.com/JustinNietz))
-- Task: added credit [\#37](https://github.com/JustinNietz/HistoryOfTheInternet/pull/37) ([JustinNietz](https://github.com/JustinNietz))
-- Task: added credit [\#36](https://github.com/JustinNietz/HistoryOfTheInternet/pull/36) ([JustinNietz](https://github.com/JustinNietz))
-- Fix: fixed typo [\#35](https://github.com/JustinNietz/HistoryOfTheInternet/pull/35) ([JustinNietz](https://github.com/JustinNietz))
-- Feature: Created www topic with pictures [\#34](https://github.com/JustinNietz/HistoryOfTheInternet/pull/34) ([JustinNietz](https://github.com/JustinNietz))
-- Communication [\#33](https://github.com/JustinNietz/HistoryOfTheInternet/pull/33) ([JustinNietz](https://github.com/JustinNietz))
-- About [\#32](https://github.com/JustinNietz/HistoryOfTheInternet/pull/32) ([JustinNietz](https://github.com/JustinNietz))
-- Fix: edited picture [\#31](https://github.com/JustinNietz/HistoryOfTheInternet/pull/31) ([JustinNietz](https://github.com/JustinNietz))
-- Team [\#30](https://github.com/JustinNietz/HistoryOfTheInternet/pull/30) ([JustinNietz](https://github.com/JustinNietz))
-- Task: added credit [\#29](https://github.com/JustinNietz/HistoryOfTheInternet/pull/29) ([JustinNietz](https://github.com/JustinNietz))
-- Glossary [\#28](https://github.com/JustinNietz/HistoryOfTheInternet/pull/28) ([JustinNietz](https://github.com/JustinNietz))
-- Fix: changed title color [\#27](https://github.com/JustinNietz/HistoryOfTheInternet/pull/27) ([JustinNietz](https://github.com/JustinNietz))
-- Bug: fixed Previous feature [\#26](https://github.com/JustinNietz/HistoryOfTheInternet/pull/26) ([JustinNietz](https://github.com/JustinNietz))
-- Fixed picture [\#25](https://github.com/JustinNietz/HistoryOfTheInternet/pull/25) ([JustinNietz](https://github.com/JustinNietz))
-- Glossary [\#24](https://github.com/JustinNietz/HistoryOfTheInternet/pull/24) ([JustinNietz](https://github.com/JustinNietz))
-- Bug: fixed nav [\#23](https://github.com/JustinNietz/HistoryOfTheInternet/pull/23) ([JustinNietz](https://github.com/JustinNietz))
-- Ecommerce [\#22](https://github.com/JustinNietz/HistoryOfTheInternet/pull/22) ([JustinNietz](https://github.com/JustinNietz))
-- Glossary [\#21](https://github.com/JustinNietz/HistoryOfTheInternet/pull/21) ([JustinNietz](https://github.com/JustinNietz))
-- Glossary [\#20](https://github.com/JustinNietz/HistoryOfTheInternet/pull/20) ([JustinNietz](https://github.com/JustinNietz))
-- Communication [\#19](https://github.com/JustinNietz/HistoryOfTheInternet/pull/19) ([JustinNietz](https://github.com/JustinNietz))
-- Ecommerce [\#18](https://github.com/JustinNietz/HistoryOfTheInternet/pull/18) ([JustinNietz](https://github.com/JustinNietz))
-- Feature: added link, picture, description to team.html [\#17](https://github.com/JustinNietz/HistoryOfTheInternet/pull/17) ([JustinNietz](https://github.com/JustinNietz))
-- Bug: fixed template [\#16](https://github.com/JustinNietz/HistoryOfTheInternet/pull/16) ([JustinNietz](https://github.com/JustinNietz))
-- Bug: deleted extra nav [\#15](https://github.com/JustinNietz/HistoryOfTheInternet/pull/15) ([JustinNietz](https://github.com/JustinNietz))
-- Communication [\#14](https://github.com/JustinNietz/HistoryOfTheInternet/pull/14) ([JustinNietz](https://github.com/JustinNietz))
-- Communication [\#13](https://github.com/JustinNietz/HistoryOfTheInternet/pull/13) ([JustinNietz](https://github.com/JustinNietz))
-- Ecommerce [\#12](https://github.com/JustinNietz/HistoryOfTheInternet/pull/12) ([JustinNietz](https://github.com/JustinNietz))
-- Feature: Invention on the Internet information and picture added [\#11](https://github.com/JustinNietz/HistoryOfTheInternet/pull/11) ([JustinNietz](https://github.com/JustinNietz))
-- Feature: Added embedded videos and about description [\#10](https://github.com/JustinNietz/HistoryOfTheInternet/pull/10) ([JustinNietz](https://github.com/JustinNietz))
-- Team [\#9](https://github.com/JustinNietz/HistoryOfTheInternet/pull/9) ([JustinNietz](https://github.com/JustinNietz))
-- Feature: Added Pagination as another navigation tool [\#8](https://github.com/JustinNietz/HistoryOfTheInternet/pull/8) ([JustinNietz](https://github.com/JustinNietz))
-- Feature: created Communication.html, fixed title in head tag [\#7](https://github.com/JustinNietz/HistoryOfTheInternet/pull/7) ([JustinNietz](https://github.com/JustinNietz))
-- Ecommerce [\#6](https://github.com/JustinNietz/HistoryOfTheInternet/pull/6) ([JustinNietz](https://github.com/JustinNietz))
-- Fix: fixed title in head tag [\#5](https://github.com/JustinNietz/HistoryOfTheInternet/pull/5) ([JustinNietz](https://github.com/JustinNietz))
-- Feature: added definitions to Glossary.html [\#4](https://github.com/JustinNietz/HistoryOfTheInternet/pull/4) ([JustinNietz](https://github.com/JustinNietz))
-- Task: Created Glossary [\#3](https://github.com/JustinNietz/HistoryOfTheInternet/pull/3) ([JustinNietz](https://github.com/JustinNietz))
-- Feature: created E-Commerce.html [\#2](https://github.com/JustinNietz/HistoryOfTheInternet/pull/2) ([JustinNietz](https://github.com/JustinNietz))
-- Task: Added images and hover cards to index [\#1](https://github.com/JustinNietz/HistoryOfTheInternet/pull/1) ([JustinNietz](https://github.com/JustinNietz))
-
-
-
-\* *This Changelog was automatically generated by [github_changelog_generator](https://github.com/github-changelog-generator/github-changelog-generator)*
+| Description     | Contributor | Date Completed
+| ----------- | ----------- | ----------- | 
+| Feature: Added bootstrap toggle buttons to index                  | Justin Nietzer | 2/24/2021 |
+| Feature: index descriptions for each section                      | Justin Nietzer | 3/1/2021 |
+| Feature: Added about and personal info for team members           | Justin Nietzer | 3/1/2021 |
+| Feature: Added definitions and examples of domain names and ICANN | Justin Nietzer | 3/1/2021 |
+| Feature: Added more reason for ICANN and links                    | Justin Nietzer | 3/1/2021 |
+| Feature: Added image rights in footer                             | Justin Nietzer | 3/1/2021 |
+| Feature: Added definition of HTTP                                 | Nikolett Muller | 3/1/2021 |
+| Feature: added more definition to http page                       | Justin Nietzer | 3/1/2021 |
+| Feature: Added pictures and descriptions under IP                 | Justin Nietzer | 3/1/2021 |
+| Feature: Added proper works cited for images                      | Justin Nietzer | 3/1/2021 |
+| Feature: added tooltips to HTTP                                   | Nikolett Muller | 3/1/2021 |
+| Feature: added picture to http.html                               | Nikolett Muller | 3/1/2021 |
