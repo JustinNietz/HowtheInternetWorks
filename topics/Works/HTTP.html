@@ -104,7 +104,7 @@
             <h2>HTTP Protocol</h2>
             <p class="topic-push">
                 How could all computers in the whole world access the Internet and communicate with each other? Let us
-                go through the steps. Firstly, we need to <em>choose a</em>
+                go through the steps. First, we need to <em>choose a</em>
                 <a href="#" data-toggle="tooltip" data-placement="right"
                    title="A web browser is a software application for accessing information
                    on the World Wide Web. When a user requests a web page from a particular website, the web browser retrieves the
@@ -112,33 +112,34 @@
                     <em><strong>web browser</strong></em>
                 </a>
                 and open it.
-                Our next task to <em>type a <strong>web address</strong> or</em>
+                Our next task is to <em>type a <strong>web address</strong> or</em>
                 <a href="#" data-toggle="tooltip" data-placement="right"
                    title="URL colloquially termed a web address, is a reference to a web resource that specifies its
                    location on a computer network and a mechanism for retrieving it.">
                     <em><strong>URL</strong></em></a>
                 (Uniform Resource
                 Locator) of the website we would like to
-                visit. After giving the proper web address, our computer gets in touch with a so-called
-                <strong>server</strong>; in just a couple of
-                milliseconds, <em>our computer gets a response from the server in HTTP</em> (Hyper Text Transfer
+                visit. After giving the proper web address, our computer gets in touch with a <strong>server</strong> in
+                just a couple of
+                milliseconds. Next, <em>your computer gets a response from the server in HTTP</em> (Hyper Text Transfer
                 Protocol) language. This
                 language is used for communication between web browsers and servers. The conversation between our
                 computer and
                 the server are <em>mainly <strong>“GET” requests</strong></em>. In this type of request, we are asking
                 simply for a <em>specific document written in HTML</em> (Hyper Text Markup Language). The text on a
                 website is already included in
-                the HTML, however other elements like <em>images or videos are separate files</em> with their unique
+                the HTML, however, other elements like <em>images or videos are separate files</em> with their unique
                 URLs.
                 Each element needs a “GET” request to appear properly on the webpage. If there are too many “GET”
                 requests at
-                once, we can experience that <em>the website loads extremely slowly</em>.
+                once, we experience <em>a website that loads extremely slowly</em>.
             </p>
 
         </div>
         <div class="col-md-4">
             <div class="card topic-card" style="width: 25rem;">
-                <img class="card-img-top" src="../../images/Works/DNS_card.jpg" alt="imgIX data servers in a separate room">
+                <img class="card-img-top" src="../../images/Works/DNS_card.jpg"
+                     alt="imgIX data servers in a separate room">
                 <div class="card-body">
                     <p class="card-text topic-img-card">Data servers<br/><a
                             href="https://unsplash.com/photos/pgdaAwf6IJg" target="_blank">by imgix</a>
@@ -146,157 +147,164 @@
                 </div>
             </div>
         </div>
-    <div class="row">
-        <div class="col-md-8">
-            <p class="topic-push">
-                A <strong>“GET” request</strong> looks like this.
-                <code>
-                    <br>
-                    GET /hello.htm HTTP/1.1<br>
-                    User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)<br>
-                    Host: www.tutorialspoint.com<br>
-                    Accept-Language: en-us<br>
-                    Accept-Encoding: gzip, deflate<br>
-                    Connection: Keep-Alive
-                </code>
-            </p>
-            <p class="topic-push">
-                Occasionally, <em>we send information too</em>, for example, when we fill out a form or type a keyword
-                into the
-                search bar. These actions require a <strong>“POST” request</strong> to the server. Let us look at an
-                example. We would
-                like to log in to our Spotify account to listen to some music. To do that, we need to give our email
-                address and password. This means that our computer or smartphone needs to send <em>a “POST” request with
-                the
-                given information</em> to Spotify’s server. If we sent the correct data for login, the server would let
-                us
-                into our Spotify account successfully. But <em>during the response, our computer gets a cookie</em>
-                which will
-                help us log in the next time without this whole process. This cookie acts as an ID card; it identifies
-                us immediately.
-            </p>
-            <p class="topic-push">
-                This is a <strong>"POST" request</strong>.
-                <code>
-                    <br>
-                    POST /cgi-bin/process.cgi HTTP/1.1<br>
-                    User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)<br>
-                    Host: www.tutorialspoint.com<br>
-                    Content-Type: application/x-www-form-urlencoded<br>
-                    Content-Length: length<br>
-                    Accept-Language: en-us<br>
-                    Accept-Encoding: gzip, deflate<br>
-                    Connection: Keep-Alive<br>
-                    licenseID=string&content=string&/paramsXML=string
-                </code>
-            </p>
-        </div>
         <div class="row">
-
             <div class="col-md-8">
-                <h2>Securing Our Data</h2>
                 <p class="topic-push">
-                    The Internet is open for anyone; its connections are all shared, furthermore, information is sent in
-                    plain text. These traits lead to the fact that
-                    <a href="#" data-toggle="tooltip" data-placement="right"
-                       title="A computer hacker is a computer expert who uses their technical knowledge to achieve a goal or
+                    A <strong>“GET” request</strong> looks like this.
+                    <code>
+                        <br>
+                        GET /hello.htm HTTP/1.1<br>
+                        User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)<br>
+                        Host: www.tutorialspoint.com<br>
+                        Accept-Language: en-us<br>
+                        Accept-Encoding: gzip, deflate<br>
+                        Connection: Keep-Alive
+                    </code>
+                </p>
+                <p class="topic-push">
+                    Occasionally, <em>we send information, too</em>, such as filling out a form or typing keywords into
+                    a search bar. These actions require a <strong>“POST” request</strong> to the server. Let us look at
+                    an
+                    example. We would
+                    like to log into our Spotify account to listen to some music. To do that, we need to give our email
+                    address and password. This means that our computer or smartphone needs to send <em>a “POST” request
+                    with
+                    the
+                    given information</em> to Spotify’s server. If we sent the correct data for login, the server would
+                    let
+                    us
+                    into our Spotify account successfully. But <em>during the response, our computer gets a cookie</em>
+                    which will
+                    help us log in the next time without this whole process. This cookie acts as an ID card that will
+                    identity us immediately the next time we login.
+                </p>
+                <p class="topic-push">
+                    This is a <strong>"POST" request</strong>.
+                    <code>
+                        <br>
+                        POST /cgi-bin/process.cgi HTTP/1.1<br>
+                        User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)<br>
+                        Host: www.tutorialspoint.com<br>
+                        Content-Type: application/x-www-form-urlencoded<br>
+                        Content-Length: length<br>
+                        Accept-Language: en-us<br>
+                        Accept-Encoding: gzip, deflate<br>
+                        Connection: Keep-Alive<br>
+                        licenseID=string&content=string&/paramsXML=string
+                    </code>
+                </p>
+            </div>
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h2>Securing Our Data</h2>
+                    <p class="topic-push">
+                        The Internet is open for anyone, and its connections are all shared. Furthermore, information is
+                        sent in
+                        plain text. These traits lead to the fact that
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                           title="A computer hacker is a computer expert who uses their technical knowledge to achieve a goal or
                    overcome an obstacle, within a computerized system by non-standard means.">
-                        <em><strong>hackers</strong></em></a>
-                    <em>can look and get our private data</em>. These
-                    cybercriminals have different methods to get our data: infecting our computers with
-                    <a href="#" data-toggle="tooltip" data-placement="right"
-                       title="It is a fraudulent attempt to obtain sensitive information or data, such as usernames,
+                            <em><strong>hackers</strong></em></a>
+                        <em>can look and get our private data</em>. These
+                        cybercriminals have different methods to get our data which infect our computers with
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                           title="It is a fraudulent attempt to obtain sensitive information or data, such as usernames,
                        passwords and credit card details or other sensitive details, by impersonating oneself as a
                        trustworthy entity in digital communication.">
-                        <strong>viruses</strong></a>, tricking us into
-                    <a href="#" data-toggle="tooltip" data-placement="right"
-                       title="A computer virus is a type of computer program that, when executed, replicates itself by
+                            <strong>viruses</strong></a>, tricking us into
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                           title="A computer virus is a type of computer program that, when executed, replicates itself by
                    modifying other computer programs and inserting its own code. If this replication succeeds,
                    the affected areas are then said to be 'infected' with a computer virus.">
-                        <strong>phishing scams</strong></a>, or using our computer for
-                    <a href="#" data-toggle="tooltip" data-placement="right"
-                       title="In a distributed denial-of-service attack (DDoS attack), the incoming traffic flooding the
+                            <strong>phishing scams</strong></a>, or using our computer for
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                           title="In a distributed denial-of-service attack (DDoS attack), the incoming traffic flooding the
                        victim originates from many different sources. This effectively makes it impossible to stop the
                        attack simply by blocking a single source.">
-                        <strong>DDOS attacks</strong></a> in cyberspace.
+                            <strong>DDOS attacks</strong></a> in cyberspace.
+                </div>
+                <div class="col-md-8">
+                    <p class="topic-push">
+                        How can we prevent these things from happening? We need to <em>secure the communication
+                        channels</em> on
+                        the
+                        Internet.
+                        To do this, we must check the website we want to visit whether it <em>has
+                        <strong>SSL</strong></em>
+                        (Secure Sockets Layer) <em>and
+                        <strong>TLS</strong> </em>(Transport Layer Security) certificates. These certificates ensure
+                        that
+                        the channel between the
+                        computer and the server is secure so our computer is well-protected during browsing on this
+                        website. When we see a <em>small lock next to <strong>HTTPS</strong></em> – added S for Secure –
+                        in
+                        the browser address bar,
+                        we can be sure that this website is verified and not dangerous for us.</p>
+
                 </div>
                 <div class="col-md-4">
                     <div class="card topic-card" style="width: 25rem;">
-                        <img class="card-img-top" src="../../images/Works/hacker.jpg" alt="Anonymous computer hacker in white mask and hoodie.">
-                            <div class="card-body">
+                        <img class="card-img-top" src="../../images/Works/hacker.jpg"
+                             alt="Anonymous computer hacker in white mask and hoodie.">
+                        <div class="card-body">
                             <p class="card-text topic-img-card">Hackers want our data<br/><a
-                            href="https://unsplash.com/photos/F7DAQIDSk98" target="_blank">by Bermix Studio</a>
-                             </p>
-                            </div>
+                                    href="https://unsplash.com/photos/F7DAQIDSk98" target="_blank">by Bermix Studio</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-             <div class="col-md-8">
-                    <p class="topic-push">
-                    How can we prevent such things happen? We need to <em>secure the communication channels</em> on the
-                    Internet.
-                    To do this, we must check the website we want to visit whether <em>has <strong>SSL</strong></em>
-                    (Secure Sockets Layer) <em>and
-                    <strong>TLS</strong> </em>(Transport Layer Security) certificates. These certificates ensure that
-                    the channel between the
-                    computer and the server is secure; so, our computer is well-protected during browsing on this
-                    website. When we see a <em>small lock next to <strong>HTTPS</strong></em> – added S for Secure – in
-                    the browser address bar,
-                    we can be sure that this website is verified, not dangerous for us.</p>
-
             </div>
-            </div>
+        </div>
     </div>
-        <div class="row">
-            <div class="col-md-8">
-                <h2>Encryption</h2>
-                <p class="topic-push">
-                    The Internet is a public space, and yet, we frequently <em>use it for sharing private data</em> like
-                    credit
-                    card information or passwords to our accounts on a daily basis. How do we keep them in secret? The
-                    solution to this is <strong>encryption</strong>. Using encryption, we <em>scramble or change our
-                    original message</em>. After
-                    hiding our data from prying eyes, the receiver of our message <em>needs to <strong>decrypt</strong>
-                    it</em>. With this
-                    process, the message becomes readable again. To decrypt a message, <em>we need a
-                    <strong>key</strong></em> – a password for
-                    unlocking the message –. Nowadays, we use 256-bit keys which means a message encrypted this way is
-                    not just impossible for humans, but also for computers to crack.
-                </p>
-                <p class="topic-push">
-                    There are two types of encryption. Firstly, we can mention <strong>Symmetric Encryption</strong>; in
-                    this case,
-                    <em>sender and receiver use the same key</em> to encrypt, then to decrypt a message. It is suitable
-                    for
-                    people who agree on the key in private before using that, but not for communication on the Internet.
-                </p>
-                <p class="topic-push">
-                    Computers use a different method: <strong>Asymmetric encryption</strong>. This method involves using
-                    two different
-                    keys. There is <em>a public key that can be shared</em> with anybody, and there is <em>a private key
-                    that belongs
-                    to the receiver</em> only. With the public key, we can encrypt a message and send this to the
-                    receiver.
-                    Anyone has access to this key, so <em>anyone can send a message</em>. On the other hand, <em>getting
-                    the message
-                    is limited</em> only to that computer that has the private key. When we see the lock in front of a
-                    web
-                    address, we can be sure that this website uses public-key cryptography; the messages between parties
-                    are properly encrypted on this web page.</p>
-            </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Encryption</h2>
+            <p class="topic-push">
+                The Internet is a public space. However, we frequently <em>use it for sharing private data</em> like
+                credit
+                card information or passwords to our accounts on a daily basis. How do we keep them secret? The
+                solution to this is <strong>encryption</strong>. Using encryption, we <em>scramble or change our
+                original message</em>. After
+                hiding our data from prying eyes, the receiver of our message <em>needs to <strong>decrypt</strong>
+                it</em>. With this
+                process, the message becomes readable again. To decrypt a message, <em>we need a
+                <strong>key</strong></em> – a password for
+                unlocking the message. Nowadays, we use 256-bit keys which are impossible for humans and computer to
+                crack.
+            </p>
+            <p class="topic-push">
+                There are two types of encryption. First, is <strong>Symmetric Encryption</strong> wherein the
+                <em>sender and receiver use the same key</em> to encrypt and decrypt a message. This encryption is used
+                by two people who can agree on the key in private before using it, but not for communication on the
+                Internet.
+            </p>
+            <p class="topic-push">
+                Computers use a different method: <strong>Asymmetric encryption</strong>. This method involves using
+                two different
+                keys. There is <em>a public key that can be shared</em> with anybody, and there is <em>a private key
+                that belongs
+                to the receiver</em> only. With the public key, we can encrypt a message and send this to the
+                receiver.
+                Anyone has access to this key so <em>anyone can send a message</em>. On the other hand, <em>getting
+                the message
+                is limited</em> only to the computer that has the private key. When we see the lock in front of a
+                web
+                address, we can be sure that this website uses public-key cryptography; the messages between parties
+                are properly encrypted on this web page.</p>
         </div>
-        <div class="row">
-            <div class="col-md-8">
-                <h2>The Need for Security Grows</h2>
-                <p class="topic-push">
-                    Some tendencies show the need for a secure Internet intensifies. More and more people start to
-                    browse on the Internet, and more and more activities are taking place on the Internet. These two
-                    mean that <em>there will be exponentially more private data on the Internet</em> that need
-                    protection. The
-                    advancing technology is at our side, but it is at the cybercriminals’ side too. We need to be
-                    proactive if we want to win in this fight.
-                </p>
-            </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>The Need for Security Grows</h2>
+            <p class="topic-push">
+                Some tendencies show the need for a secure Internet intensifies. More and more people start to
+                browse on the Internet, and more and more activities are taking place on the Internet. This
+                means that <em>there will be exponentially more private data on the Internet</em> that needs
+                protection.
+            </p>
         </div>
+    </div>
     </div>
 </main>
 
