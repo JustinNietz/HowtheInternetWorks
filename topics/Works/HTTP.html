@@ -24,7 +24,7 @@
     <!--Tooltip JavaScript -->
     <script src="../../js/index.js"></script>
     <!-- Title -->
-    <title>HTTP and HTTPS protocol | The History of the Internet</title>
+    <title>HTTP and HTTPS protocol | How the Internet Works | Reference Guide to the Internet</title>
 </head>
 <body>
 
@@ -44,7 +44,7 @@
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         The History
                     </a>
-                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="../History/Creation.html">The Invention of the Internet</a>
                         <a class="dropdown-item" href="../History/WWW.html">The Creation of the World Wide Web</a>
                         <a class="dropdown-item" href="../History/Search.html">The Search Engine</a>
@@ -88,195 +88,223 @@
     <div class="row info-push">
         <div class="col-md-8">
             <p class="topic-push">
-                <i>Each topic should be introduced with the concept/definition, followed by some examples and a
-                    section explaining why we use them. </i>
+                <i>
+                    The Internet is a design philosophy expressed in a set of protocols. When we talk about a protocol,
+                    we
+                    think of a <em>well-known set of rules and standards</em> that are used for communication between
+                    machines. If
+                    all parties agree on using the same protocol, then this agreement will allow them all to communicate
+                    without any trouble. Furthermore, this design helps to adopt new technologies in the future.</i>
+            </p>
+        </div>
 
-            </p>
-        </div>
     </div>
     <div class="row">
         <div class="col-md-8">
-            <h2>Definition</h2>
+            <h2>HTTP Protocol</h2>
             <p class="topic-push">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Nisl tincidunt eget nullam non nisi est sit. Dictum fusce ut placerat orci nulla
-                pellentesque. Sapien et ligula ullamcorper malesuada proin libero. Sed libero enim sed faucibus turpis
-                in eu mi bibendum. Id eu nisl nunc mi ipsum faucibus. Morbi tristique senectus et netus et malesuada
-                fames. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Integer feugiat
-                scelerisque varius morbi enim nunc faucibus. Neque egestas congue quisque egestas diam. Risus nullam
-                eget felis eget nunc lobortis mattis aliquam. Mattis molestie a iaculis at erat pellentesque adipiscing
-                commodo. Velit aliquet sagittis id consectetur purus ut. Aliquam nulla facilisi cras fermentum odio.
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8">
-            <h2>Examples</h2>
-            <p class="topic-push">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Nisl tincidunt eget nullam non nisi est sit. Dictum fusce ut placerat orci nulla
-                pellentesque. Sapien et ligula ullamcorper malesuada proin libero. Sed libero enim sed faucibus turpis
-                in eu mi bibendum. Id eu nisl nunc mi ipsum faucibus. Morbi tristique senectus et netus et malesuada
-                fames. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Integer feugiat
-                scelerisque varius morbi enim nunc faucibus. Neque egestas congue quisque egestas diam. Risus nullam
-                eget felis eget nunc lobortis mattis aliquam. Mattis molestie a iaculis at erat pellentesque adipiscing
-                commodo. Velit aliquet sagittis id consectetur purus ut. Aliquam nulla facilisi cras fermentum odio.
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8">
-            <h2>Why we use HTTP and HTTPS protocols</h2>
-            <p class="topic-push">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Nisl tincidunt eget nullam non nisi est sit. Dictum fusce ut placerat orci nulla
-                pellentesque. Sapien et ligula ullamcorper malesuada proin libero. Sed libero enim sed faucibus turpis
-                in eu mi bibendum. Id eu nisl nunc mi ipsum faucibus. Morbi tristique senectus et netus et malesuada
-                fames. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Integer feugiat
-                scelerisque varius morbi enim nunc faucibus. Neque egestas congue quisque egestas diam. Risus nullam
-                eget felis eget nunc lobortis mattis aliquam. Mattis molestie a iaculis at erat pellentesque adipiscing
-                commodo. Velit aliquet sagittis id consectetur purus ut. Aliquam nulla facilisi cras fermentum odio.
-            </p>
-        </div>
-    </div>
-
-
-    <div class="row">
-        <div class="col-md-8">
-            <h2>Telephones and Packets</h2>
-            <p class="topic-push">
-                The telephone system became another catalyst for the creation of the Internet. If the connection path
-                between a telephone call is broken, the connection is cut off. This weakness became a matter of national
-                security in the early 1960s as they feared a Soviet attack which would cripple their communications in
-                effective retaliation. <strong>Dr. Paul Baran</strong>, who was hired to fix this problem, helped to
-                create <strong>Hot Potato Routing</strong>, which meant a message transiting a network got to where it
-                was going even if part of the network was destroyed.
-            </p>
-            <p class="topic-push">
-                This routing led to
+                How could all computers in the whole world access the Internet and communicate with each other? Let us
+                go through the steps. First, we need to <em>choose a</em>
                 <a href="#" data-toggle="tooltip" data-placement="right"
-                   title="Created in case the telephone line connection was cut off, there would still be a way to communicate."><strong>Packet
-                    Switching</strong>
+                   title="A web browser is a software application for accessing information
+                   on the World Wide Web. When a user requests a web page from a particular website, the web browser retrieves the
+                   necessary content from a web server and then displays the page on the user's device.">
+                    <em><strong>web browser</strong></em>
                 </a>
-                Packet Switching. The network chops up a document into a lot of pieces (packets).
-                Each packet was like a postcard with a to and from address that would get launched into the network and
-                operate independently. The final destination takes all these packets and puts them back into a long
-                document at the end. This design for a network, a Packet Switching Network, gets its message through
-                better than telephones <em>as long as some part of the network</em> functions.
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8">
-            <h2>Bob Taylor’s Frustrations</h2>
-            <p class="topic-push">
-                The first computer networks stem from the frustrations of a single ARPA scientist, Bob Taylor, who
-                needed a separate terminal to log into each of several <strong>time-shared</strong> computers at
-                research centers across the country. He knew a single terminal would suffice if all the computers were
-                in a common <strong>network</strong>.
-            </p>
-            <p class="topic-push">
-                Taylor was given a million dollars to work on this problem where he recruited Larry Roberts, who built
-                the world’s first experimental connection between two computers. Roberts was inspired by a fellow
-                engineer, who suggested building identical special-purpose mini computers, called <strong>Interface
-                Messaging Processors</strong> (
+                and open it.
+                Our next task is to <em>type a <strong>web address</strong> or</em>
                 <a href="#" data-toggle="tooltip" data-placement="right"
-                   title="Interface Messaging Processors that would be connected to computers to form the first internet network."><strong>IMPs</strong>
-                </a>
-                ), to form the network and tie each computer to one of them.
+                   title="URL colloquially termed a web address, is a reference to a web resource that specifies its
+                   location on a computer network and a mechanism for retrieving it.">
+                    <em><strong>URL</strong></em></a>
+                (Uniform Resource
+                Locator) of the website we would like to
+                visit. After giving the proper web address, our computer gets in touch with a <strong>server</strong> in
+                just a couple of
+                milliseconds. Next, <em>your computer gets a response from the server in HTTP</em> (Hyper Text Transfer
+                Protocol) language. This
+                language is used for communication between web browsers and servers. The conversation between our
+                computer and
+                the server are <em>mainly <strong>“GET” requests</strong></em>. In this type of request, we are asking
+                simply for a <em>specific document written in HTML</em> (Hyper Text Markup Language). The text on a
+                website is already included in
+                the HTML, however, other elements like <em>images or videos are separate files</em> with their unique
+                URLs.
+                Each element needs a “GET” request to appear properly on the webpage. If there are too many “GET”
+                requests at
+                once, we experience <em>a website that loads extremely slowly</em>.
             </p>
-            <p class="topic-push">
-                He sought out the engineers to build the Advance Research Projects Agency’s computer network, the
-                <strong>ARPANET</strong>. The plan was to network 4 identical IMPs. Each one would be attached to a
-                different kind of mainframe computer at three different universities across California and one
-                in Utah.</p>
+
         </div>
         <div class="col-md-4">
             <div class="card topic-card" style="width: 25rem;">
-                <a href="https://commons.wikimedia.org/wiki/File:Interface_Message_Processor_Front_Panel.jpg"
-                   target="_blank"><img class="card-img-top" src="../../images/History/IMP.jpg" alt="Card image IMP"></a>
+                <img class="card-img-top" src="../../images/Works/DNS_card.jpg"
+                     alt="imgIX data servers in a separate room">
                 <div class="card-body">
-                    <p class="card-text topic-img-card">Photo of the very first IMP</p>
+                    <p class="card-text topic-img-card">Data servers<br/><a
+                            href="https://unsplash.com/photos/pgdaAwf6IJg" target="_blank">by imgix</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <p class="topic-push">
+                    A <strong>“GET” request</strong> looks like this.
+                    <code>
+                        <br>
+                        GET /hello.htm HTTP/1.1<br>
+                        User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)<br>
+                        Host: www.tutorialspoint.com<br>
+                        Accept-Language: en-us<br>
+                        Accept-Encoding: gzip, deflate<br>
+                        Connection: Keep-Alive
+                    </code>
+                </p>
+                <p class="topic-push">
+                    Occasionally, <em>we send information, too</em>, such as filling out a form or typing keywords into
+                    a search bar. These actions require a <strong>“POST” request</strong> to the server. Let us look at
+                    an
+                    example. We would
+                    like to log into our Spotify account to listen to some music. To do that, we need to give our email
+                    address and password. This means that our computer or smartphone needs to send <em>a “POST” request
+                    with
+                    the
+                    given information</em> to Spotify’s server. If we sent the correct data for login, the server would
+                    let
+                    us
+                    into our Spotify account successfully. But <em>during the response, our computer gets a cookie</em>
+                    which will
+                    help us log in the next time without this whole process. This cookie acts as an ID card that will
+                    identity us immediately the next time we login.
+                </p>
+                <p class="topic-push">
+                    This is a <strong>"POST" request</strong>.
+                    <code>
+                        <br>
+                        POST /cgi-bin/process.cgi HTTP/1.1<br>
+                        User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)<br>
+                        Host: www.tutorialspoint.com<br>
+                        Content-Type: application/x-www-form-urlencoded<br>
+                        Content-Length: length<br>
+                        Accept-Language: en-us<br>
+                        Accept-Encoding: gzip, deflate<br>
+                        Connection: Keep-Alive<br>
+                        licenseID=string&content=string&/paramsXML=string
+                    </code>
+                </p>
+            </div>
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h2>Securing Our Data</h2>
+                    <p class="topic-push">
+                        The Internet is open for anyone, and its connections are all shared. Furthermore, information is
+                        sent in
+                        plain text. These traits lead to the fact that
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                           title="A computer hacker is a computer expert who uses their technical knowledge to achieve a goal or
+                   overcome an obstacle, within a computerized system by non-standard means.">
+                            <em><strong>hackers</strong></em></a>
+                        <em>can look and get our private data</em>. These
+                        cybercriminals have different methods to get our data which infect our computers with
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                           title="It is a fraudulent attempt to obtain sensitive information or data, such as usernames,
+                       passwords and credit card details or other sensitive details, by impersonating oneself as a
+                       trustworthy entity in digital communication.">
+                            <strong>viruses</strong></a>, tricking us into
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                           title="A computer virus is a type of computer program that, when executed, replicates itself by
+                   modifying other computer programs and inserting its own code. If this replication succeeds,
+                   the affected areas are then said to be 'infected' with a computer virus.">
+                            <strong>phishing scams</strong></a>, or using our computer for
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                           title="In a distributed denial-of-service attack (DDoS attack), the incoming traffic flooding the
+                       victim originates from many different sources. This effectively makes it impossible to stop the
+                       attack simply by blocking a single source.">
+                            <strong>DDOS attacks</strong></a> in cyberspace.
+                </div>
+                <div class="col-md-8">
+                    <p class="topic-push">
+                        How can we prevent these things from happening? We need to <em>secure the communication
+                        channels</em> on
+                        the
+                        Internet.
+                        To do this, we must check the website we want to visit whether it <em>has
+                        <strong>SSL</strong></em>
+                        (Secure Sockets Layer) <em>and
+                        <strong>TLS</strong> </em>(Transport Layer Security) certificates. These certificates ensure
+                        that
+                        the channel between the
+                        computer and the server is secure so our computer is well-protected during browsing on this
+                        website. When we see a <em>small lock next to <strong>HTTPS</strong></em> – added S for Secure –
+                        in
+                        the browser address bar,
+                        we can be sure that this website is verified and not dangerous for us.</p>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card topic-card" style="width: 25rem;">
+                        <img class="card-img-top" src="../../images/Works/hacker.jpg"
+                             alt="Anonymous computer hacker in white mask and hoodie.">
+                        <div class="card-body">
+                            <p class="card-text topic-img-card">Hackers want our data<br/><a
+                                    href="https://unsplash.com/photos/F7DAQIDSk98" target="_blank">by Bermix Studio</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-md-8">
-            <h2>BBN and IMPS and Grad Students</h2>
+            <h2>Encryption</h2>
             <p class="topic-push">
-                A small Cambridge Massachusetts company known as <strong>BBN</strong> won the contract and went to work
-                building the IMPs
-                for the ARPANET on January 1st, 1969. Both BBN and UCLA were under a tight deadline. Writing the code to
-                have the computers communicate with the IMPs were left to the graduate students or staff members. There
-                was concern with the phone lines, which were built for voice traffic and not data or running the
-                mainframe computers nonstop. By the end of 1969, all four sites were interconnected and had worked the
-                way it was intended.
+                The Internet is a public space. However, we frequently <em>use it for sharing private data</em> like
+                credit
+                card information or passwords to our accounts on a daily basis. How do we keep them secret? The
+                solution to this is <strong>encryption</strong>. Using encryption, we <em>scramble or change our
+                original message</em>. After
+                hiding our data from prying eyes, the receiver of our message <em>needs to <strong>decrypt</strong>
+                it</em>. With this
+                process, the message becomes readable again. To decrypt a message, <em>we need a
+                <strong>key</strong></em> – a password for
+                unlocking the message. Nowadays, we use 256-bit keys which are impossible for humans and computer to
+                crack.
             </p>
+            <p class="topic-push">
+                There are two types of encryption. First, is <strong>Symmetric Encryption</strong> wherein the
+                <em>sender and receiver use the same key</em> to encrypt and decrypt a message. This encryption is used
+                by two people who can agree on the key in private before using it, but not for communication on the
+                Internet.
+            </p>
+            <p class="topic-push">
+                Computers use a different method: <strong>Asymmetric encryption</strong>. This method involves using
+                two different
+                keys. There is <em>a public key that can be shared</em> with anybody, and there is <em>a private key
+                that belongs
+                to the receiver</em> only. With the public key, we can encrypt a message and send this to the
+                receiver.
+                Anyone has access to this key so <em>anyone can send a message</em>. On the other hand, <em>getting
+                the message
+                is limited</em> only to the computer that has the private key. When we see the lock in front of a
+                web
+                address, we can be sure that this website uses public-key cryptography; the messages between parties
+                are properly encrypted on this web page.</p>
         </div>
     </div>
     <div class="row">
         <div class="col-md-8">
-            <h2>ARPANET</h2>
+            <h2>The Need for Security Grows</h2>
             <p class="topic-push">
-                In April 1971, the ARPANET had 18 mainframe computers hooked into the network. At first there was not
-                much to do beyond transferring data files among its members. Then, a new capability was added that
-                would take the usefulness of computer networking to a new level. Raymond Tomlinson created this killer
-                application called email. Tomlinson gave the world the @ sign.
+                Some tendencies show the need for a secure Internet intensifies. More and more people start to
+                browse on the Internet, and more and more activities are taking place on the Internet. This
+                means that <em>there will be exponentially more private data on the Internet</em> that needs
+                protection.
             </p>
-            <p class="topic-push">
-                Internet begun in 1969 as an experimental computer network. Anyone could contribute ideas about its use
-                and how to improve it. Ideas were offered as requests for comments so everyone would free feel to
-                discuss and criticize them. By 1972 the ARPANET had fewer than 25 sites online, yet more were coming.
-                What sparked the increase was the first international conference on computers and communication
-                sponsored by ARPA.
-            </p>
-        </div>
-        <div class="col-md-4">
-            <div class="card topic-card" style="width: 25rem;">
-                <a href="https://commons.wikimedia.org/wiki/File:Arpanet_1974.svg" target="_blank"><img
-                        class="card-img-top" src="../../images/History/Arpanet.png" alt="Card image ARPANET"></a>
-                <div class="card-body">
-                    <p class="card-text topic-img-card">The ARPANET network map in 1974</p>
-                </div>
-            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-8">
-            <h2>Networks</h2>
-            <p class="topic-push">
-                Soon other networks emerged. <strong>LAN</strong> (local area networks) linked computers throughout
-                offices; <strong>WAN</strong> (wide
-                area networks) linked computers across buildings or campuses. Each new network was like a foreign
-                country speaking its own language and independent of one another. They needed a common protocol for them
-                to communicate.
-            </p>
-            <p class="topic-push">
-                In 1973, <strong>Ben Cerf</strong> and <strong>Bob Kahn</strong> teamed up to develop a set of rules or
-                procedures known as the
-                <a href="#" data-toggle="tooltip" data-placement="right"
-                   title="A set of rules or procedures that computer networks would have to follow to allow them to pass their message back and forth."><strong>TCP/IP
-                    protocol</strong>
-                </a>
-                and if followed by different computer networks, would allow them to pass their message packets
-                back and forth. The <strong>Gateway</strong>, as Cerf and Kahn named it, knew how to talk to each of the
-                networks it was
-                connected to. In 1983 TCP/IP was adopted as a standard.
-            </p>
-            <p class="topic-push">
-                Under 1980s technology it was difficult to research a topic. Tim Berners-Lee, a physicist at the CERN
-                Research Institute in Switzerland developed the software to follow threads of knowledge more easily
-                within the information stored throughout the internet. By using a computer mouse to click on a word or
-                phrase linked across the Internet, one could instantaneously follow a link from site to site around the
-                web in pursuit of a topic. The crisscrossing of these threads across the globe reminded him of a web so
-                he named his invention the World Wide Web.
-            </p>
-            <p class="topic-push">
-                On June 9, 1992, Congress passed a bill taking the Internet out of the exclusive hands of government and
-                into the public. The Internet had crossed the Rubicon.
-            </p>
-        </div>
     </div>
 </main>
 
@@ -304,18 +332,9 @@
     <hr>
     <div class="row">
         <div class="col-md-12">
-            <p><strong><a href="https://commons.wikimedia.org/wiki/File:Interface_Message_Processor_Front_Panel.jpg"
-                          target="_blank">Interface Message Processor Front Panel.jpg</a></strong>: This Image was
-                uploaded to Wikipedia by user <a href="https://commons.wikimedia.org/wiki/User:FastLizard4"
-                                                 target="_blank">FastLizard4</a>, licensed under the Creative Commons <a
-                        href="https://creativecommons.org/licenses/by-sa/3.0/deed.en" target="_blank">Attribution-Share
-                    Alike 3.0 Unported license.</a> No changes were made.</p>
-            <p><strong><a href="" target="_blank">Arpanet 1974.svg</a></strong>: This image is released into the <a
-                    href="https://en.wikipedia.org/wiki/Public_domain" target="_blank">Public domain</a>.</p>
             <p class="footer-font-color">Decorative image by <a
-                    href="https://www.pexels.com/photo/photo-of-light-bulb-1495580/" target="_blank">eric anada</a>.</p>
+                    href="https://unsplash.com/photos/ZNOxwCEj5mw" target="_blank">FLY:D</a>.</p>
         </div>
-    </div>
     </div>
 </footer>
 

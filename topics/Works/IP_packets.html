@@ -24,7 +24,7 @@
     <!--Tooltip JavaScript -->
     <script src="../../js/index.js"></script>
     <!-- Title -->
-    <title>IP Addresses, Packets and Routing | Reference Guide to the Internet</title>
+    <title>IP Addresses, Packets and Routing | How the Internet Works | Reference Guide to the Internet</title>
 </head>
 <body>
 
@@ -92,7 +92,8 @@
                 An <strong class="definition">IP Address</strong> is a single computer’s address on the internet. This
                 address is just a number, similar to a
                 phone number, that is unique to each computer or device at the edge of the network. It forms part of one
-                of the most important protocols used in internet communication called the internet protocol (IP).
+                of the most important protocols used in internet communication called the <strong>internet
+                protocol</strong> (IP).
             </p>
             <p class="topic-push">
                 An IP address is a bunch of numbers organized in a hierarchy. Each of the numbers are represented in
@@ -112,14 +113,15 @@
             <h2>What is a Packet?</h2>
             <p class="topic-push">
                 If you have a very large image that you want to send over the internet, that image is made up of tens of
-                millions of bits or 1s and 0s, too many to send in one packet. The computer sending the image can
+                millions of bits or ones and zeroes, too many to send in one packet. The computer sending the image can
                 quickly break it up into hundreds or thousands of smaller parts called packets.</p>
 
-            <p class="topic-push">A <strong class="definition">Packet</strong> – made up of binary – is a sequence of 1s
-                and 0s sent physically through wired and wireless
-                networks. Packets don’t
+            <p class="topic-push">A <strong class="definition">Packet</strong> – made up of binary – is a sequence of
+                ones
+                and zeroes sent physically through wired and wireless
+                networks. Packets do not
                 choose their routes through the distributed network. Each packet only has the internet address of where
-                it came from and where its going.
+                it came from and where it's going.
             </p>
         </div>
     </div>
@@ -129,17 +131,18 @@
             <p class="topic-push">
                 Special computers on the internet called <strong class="definition">Routers</strong> act like traffic
                 managers to keep packets moving
-                smoothly. If one route is congested, individual packets may travel different routes through the internet
+                smoothly. If one route is congested, individual packets may travel different routes through the
+                internet,
                 and they arrived at the destination at slightly different times or even out of order.
             </p>
             <p class="topic-push">
                 As part of the internet protocol, every router keeps track of multiple paths for sending packets. It
                 chooses the cheapest available path for each piece of data based on destination IP address for the
-                packet. Cheapest means time and non-technical factors such as politics and relationships between
+                packet. Cheapest refers to time and non-technical factors such as politics and relationships between
                 companies.
             </p>
             <p class="topic-push">
-                Often the best route for data to travel isn’t the most direct. Having options for paths makes the
+                Often the best route for data to travel is not the most direct. Having options for paths makes the
                 network fault tolerant, which means the networks can keep sending packets even if something goes
                 horribly wrong.
             </p>
@@ -191,7 +194,7 @@
                 <img src="../../images/Works/ping_ny.JPG" alt="ping to nytimes.com">
                 <p class="topic-push">The image above is the command <strong>ping nytimes.com</strong>. The command
                     <strong>ping</strong> sends test packets to a website. In this case, we are sending test packets to
-                    nytimes.com</p>
+                    nytimes.com.</p>
 
             </div>
         </div>
@@ -200,23 +203,21 @@
         <div class="col-md-8">
             <h2>Why do we use IP Addresses, Packets, and Routing?</h2>
             <p class="topic-push">
-                The key principle of the internet is reliability. The internet is really a design philosophy and an
-                architecture expressed in a set of protocols. A <strong>Protocol</strong> is a well-known set of rules
+                The key principle of the internet is reliability. The internet is ultimately a set of protocols. A <strong>Protocol</strong> is a well-known set of rules
                 and standards used
-                to communicate between machines. If all parties agree to use it, it will allow them all the communicate
-                without trouble.
+                to communicate between machines.
             </p>
             <p class="topic-push">
                 The transmission control protocol (TCP) manages the sending and receiving of all your data as packets.
-                Think of it like a guaranteed mail service. When you request a song of your device, Spotify sends the
+                Think of it like a guaranteed mail service. For example, when you request a song on your device from Spotify, it sends the
                 song broken up into many packets. When your packets arrive, TCP does a full inventory and sends back
-                acknowledgements of each packet received. If all packets are there, TCP signs for delivery and you’re
-                done. If it finds some packets are missing, it wont sign. For each missing or incomplete packet, Spotify
+                acknowledgements of each packet received. If all packets are there, TCP signs for delivery and you are
+                done. If it finds some packets are missing, it will not sign the acknowledgement. For each missing or incomplete packet, Spotify
                 will resend them.
             </p>
             <p class="topic-push">
-                What’s great about the TCP and Router systems is they are scalable. They can work with 8 devices or 8
-                billion devices. Because of these principles of fault tolerant and redundancy the more routers we add,
+                The TCP and Router systems is they are scalable. They can work with 8 devices or 8
+                billion devices. Because of these principles of fault tolerant and redundancy, the more routers we add
                 the more reliable the internet becomes.
             </p>
         </div>
