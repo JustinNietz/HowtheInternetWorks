@@ -301,3 +301,8 @@ h3 {
 .footer {
     background-color: #293241;
 }
+@media screen and (max-width:500px) {
+h1 {
+font-size: 45px;
+}
+}
