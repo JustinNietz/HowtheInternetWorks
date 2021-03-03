@@ -14,19 +14,11 @@ body {
     background-color: #eef4f7;
 }
 
-h1 {
-    color: black;
-    font-size: 50px;
-    font-weight: 700;
-    font-family: sans-serif;
-    padding-top: 100px;
-    padding-bottom: 10px;
-}
-
 /* Navigation bar color */
 .nav-color {
     background-color: #293241;
 }
+
 .btn-primary {
     background-color: #293241;
     border-color: #293241;
@@ -200,12 +192,16 @@ img {
 }
 
 @media screen and (max-width: 500px) {
+
     h1 {
-        font-size: 45px;
+        padding-top: 20px;
+        font-size: 20px;
     }
 }
 
 @media only screen and (min-width: 600px) {
+
+
     .int-bg {
         position: absolute;
         z-index: -1;
@@ -302,6 +298,16 @@ img {
 }
 
 @media only screen and (min-width: 1050px) {
+
+    h1 {
+        color: #eef4f7;
+        font-size: 50px;
+        font-weight: 700;
+        font-family: sans-serif;
+        padding-top: 100px;
+        padding-bottom: 10px;
+    }
+
     .content-details {
         position: absolute;
         text-align: center;
@@ -353,8 +359,9 @@ img {
     }
 
 }
-#whiteline{
-        height: 1px;
-        background-color:#eef4f7;
-        border: none;
-    }
+
+#whiteline {
+    height: 1px;
+    background-color: #eef4f7;
+    border: none;
+}
