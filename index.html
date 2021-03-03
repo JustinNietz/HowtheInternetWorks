@@ -10,6 +10,8 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Index CSS -->
     <link rel="stylesheet" href="css/index.css">
+    <!-- Carousel CSS -->
+    <link rel="stylesheet" href="css/carousel.css">
     <!-- Title -->
     <title>Home | Reference Guide to the Internet</title>
 </head>
@@ -67,213 +69,156 @@
     </div>
 </nav>
 
-<!-- Title of Index -->
-<header role="banner" class="internet-bg wrapper flex-grow-1">
-    <div class="int-bg"></div>
-    <h1 class="index-pg">Reference Guide to the Internet</h1>
-</header>
-
-<!-- Toggle button for History of the Internet -->
-<div class="container button-push button-center">
-    <button data-toggle="collapse" type="button" class="btn btn-secondary btn-lg btn-block dropdown-toggle"
-            data-target="#history">The
-        History of the Internet
-    </button>
-</div>
-
-<!-- Introduction to section -->
-<div id="history" class="collapse in">
-    <div class="container">
-        <div class="row"></div>
-        <div class="col-md-12">
-            <p class="sub-text">Have you ever wondered how or why the internet even started in the first place? Or maybe
-                how early
-                websites work? These topics below cover the beginning history of the Internet. </p>
-            <p class="sub-text text-center">Click on an image to get
-                started!</p>
+<!-- Carousel -->
+<div id="myCarousel" class="slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item first-slide active">
+            <div class="container">
+                <div class="carousel-caption text-center">
+                    <h1>Reference Guide to the Internet</h1>
+                    <hr>
+                    <br>
+                    <p><a class="btn btn-lg btn-primary" href="#sections" role="button">Browse the sections</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item second-slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>The History of the Internet</h1>
+                    <p class="carousel-p">Have you ever wondered how or why the internet even started in the first place? Or maybe
+                        how early
+                        websites work?</p>
+                    <p><a class="btn btn-lg btn-primary" href="topics/History/Creation.html" role="button">Get
+                        started!</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item third-slide">
+            <div class="container">
+                <div class="carousel-caption text-center">
+                    <h1>How the Internet Works</h1>
+                    <p class="carousel-p">When you type in a webpage, have you
+                        ever
+                        thought about what happens behind the scenes? </p>
+                    <p><a class="btn btn-lg btn-primary" href="topics/Works/domain_ICANN.html" role="button">Get
+                        Started!</a></p>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- History Hover Cards -->
-    <main role="main" class="container card-bg-color radius">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="content"><a href="topics/History/Creation.html">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/History/network_bg.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">The Invention of the Internet</h3>
-                        <p class="content-text"></i>Start Reading . . .</p>
-                    </div>
-                </a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="content"><a href="topics/History/WWW.html">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/History/web_bg.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">The Creation of the World Wide Web</h3>
-                        <p class="content-text"></i>Start Reading . . .</p>
-                    </div>
-                </a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="content"><a href="topics/History/Search.html">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/History/search_bg.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">The Search Engine</h3>
-                        <p class="content-text"></i>Start Reading . . .</p>
-                    </div>
-                </a></div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4">
-                <div class="content"><a href="topics/History/E-commerce.html">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/History/ecommerce_bg.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">Age of E-commerce</h3>
-                        <p class="content-text"></i>Start Reading . . .</p>
-                    </div>
-                </a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="content"><a href="topics/History/Communication.html">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/History/uprising_bg.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">Communication Uprising</h3>
-                        <p class="content-text"></i>Start Reading . . .</p>
-                    </div>
-                </a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="content"><a href="topics/History/Glossary.html">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/History/glossary_bg.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">Glossary</h3>
-                    </div>
-                </a></div>
-            </div>
-        </div>
-    </main>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
 </div>
 
-<!-- Toggle button for How the Internet works -->
-<div class="container button-push">
-    <button data-toggle="collapse" type="button" class="btn btn-secondary btn-lg btn-block dropdown-toggle"
-            data-target="#works">How the Internet Works
-    </button>
-</div>
-
-<!-- Introduction to section -->
-<div id="works" class="collapse in">
-    <div class="container">
-        <div class="row"></div>
-        <div class="col-md-12">
-            <p class="sub-text">Nowadays, navigating the internet has never been easier. You click on your web browser,
-                type in a URL or
-                search through Google and press enter! That’s it! Or, at least, that’s all we see. However, have you
-                ever
-                thought about what happens behind the scenes? Within these topics, we will explore the process the
-                network takes and the path it follows to reach your destination. </p>
-            <p class="sub-text">Behind the scenes, browsing the web is like going on vacation. From arriving at the
-                airport all the way
-                to your landing destination, think of everything you need to do in the middle.
-                Let’s take a journey through the network that is the Internet!
+<!-- Cards for History-->
+<div class="container marketing carousel-card" id="sections">
+    <h2 class="card-title">The History</h2>
+    <!-- First row of three -->
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="mb-3" src="images/History/network_bg.jpg" alt="lightbulb" width="250" height="150">
+            <h2 class="mb-5">The Invention of the Internet</h2>
+            <p><a class="btn btn-secondary" href="topics/History/Creation.html" role="button">Start Reading »</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="mb-3" src="images/History/web_bg.jpg" alt="web" width="250" height="150">
+            <h2 class="mb-5">The Creation of the World Wide Web</h2>
+            <p><a class="btn btn-secondary" href="topics/History/WWW.html" role="button">Start Reading »</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="mb-3" src="images/History/search_bg.jpg" alt="image of phone" width="250" height="150">
+            <h2 class="mb-5">The Search Engine</h2>
+            <p class="card-btn"><a class="btn btn-secondary" href="topics/History/Search.html" role="button">Start
+                Reading »</a></p>
+        </div>
+    </div>
+    <!-- Second row of three -->
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="mb-3" src="images/History/ecommerce_bg.jpg" alt="credit card" width="250" height="150">
+            <h2 class="mb-5">Age of ECommerce</h2>
+            <p class="card-btn"><a class="btn btn-secondary" href="topics/History/E-commerce.html" role="button">Start
+                Reading »</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="mb-3" src="images/History/uprising_bg.jpg" alt="web" width="250" height="150">
+            <h2 class="mb-5">Communication Uprising</h2>
+            <p><a class="btn btn-secondary" href="topics/History/Communication.html" role="button">Start Reading »</a>
             </p>
-            <p class="sub-text text-center">Click on an image to get
-                started!</p>
+        </div>
+        <div class="col-lg-4">
+            <img class="mb-3" src="images/History/glossary_bg.jpg" alt="image of phone" width="250" height="150">
+            <h2 class="mb-5">Glossary</h2>
+            <p class="card-btn"><a class="btn btn-secondary" href="topics/History/Glossary.html" role="button">Start
+                Reading »</a></p>
         </div>
     </div>
-    <!-- How the Internet works Hover Cards -->
-    <main role="main" class="container card-bg-color radius">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="content"><a href="topics/Works/domain_ICANN.html">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/Works/ICANN_domain_card.jpg" width="500" height="210">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">Domain names and ICANN</h3>
-                        <p class="content-text"></i>Start Reading . . .</p>
-                    </div>
-                </a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="content"><a href="topics/Works/IP_packets.html">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/Works/IP-card.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">IP Addresses, Packets and Routing</h3>
-                        <p class="content-text"></i>Start Reading . . .</p>
-                    </div>
-                </a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="content"><a href="topics/Works/DNS.html">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/Works/DNS_card.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">DNS</h3>
-                        <p class="content-text"></i>Start Reading . . .</p>
-                    </div>
-                </a></div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-md-4">
-                <div class="content"><a href="topics/Works/HTTP.html">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/Works/HTTP_card.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">HTTP and HTTPS protocols</h3>
-                        <p class="content-text"></i>Start Reading . . .</p>
-                    </div>
-                </a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="content"><a href="topics/Works/W3C_HTML_CSS.html">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/Works/W3C_card.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">W3C and HTML and CSS</h3>
-                        <p class="content-text"></i>Start Reading . . .</p>
-                    </div>
-                </a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="content"><a href="topics/Works/review.html">
-                    <div class="content-overlay"></div>
-                    <img class="content-image" src="images/History/glossary_bg.jpg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">Review</h3>
-                    </div>
-                </a></div>
-            </div>
+    <!-- Divider -->
+    <hr class="featurette-divider">
+
+    <h2 class="card-title">How it Works</h2>
+    <!-- First row of Works -->
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="mb-3" src="images/Works/ICANN_domain_card.jpg" alt="ICANN" width="250" height="150">
+            <h2 class="mb-5">Domain names and ICANN</h2>
+            <p><a class="btn btn-secondary" href="topics/Works/domain_ICANN.html" role="button">Start Reading »</a></p>
         </div>
-    </main>
+        <div class="col-lg-4">
+            <img class="mb-3" src="images/Works/IP-card.jpg" alt="IP address" width="250" height="150">
+            <h2 class="mb-5">IP Addresses, Packets and Routing</h2>
+            <p><a class="btn btn-secondary" href="topics/Works/IP_packets.html" role="button">Start Reading »</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="mb-3" src="images/Works/DNS_card.jpg" alt="DNS" width="250" height="150">
+            <h2 class="mb-5">DNS</h2>
+            <p class="card-btn"><a class="btn btn-secondary" href="topics/Works/DNS.html" role="button">Start
+                Reading »</a></p>
+        </div>
+    </div>
+    <!-- Second row of Works -->
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="mb-3" src="images/Works/HTTP_card.jpg" alt="HTTP" width="250" height="150">
+            <h2 class="mb-5">HTTP and HTTPS Protocols</h2>
+            <p><a class="btn btn-secondary" href="topics/Works/HTTP.html" role="button">Start
+                Reading »</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="mb-3" src="images/Works/W3C_card.jpg" alt="web" width="250" height="150">
+            <h2 class="mb-5">W3C, HTML, and CSS</h2>
+            <p class="card-btn"><a class="btn btn-secondary" href="topics/Works/W3C_HTML_CSS.html" role="button">Start Reading »</a>
+            </p>
+        </div>
+        <div class="col-lg-4">
+            <img class="mb-3" src="images/History/glossary_bg.jpg" alt="image of phone" width="250" height="150">
+            <h2 class="mb-5">Review</h2>
+            <p class="card-btn"><a class="btn btn-secondary" href="topics/Works/review.html" role="button">Start
+                Reading »</a></p>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
 </div>
 
-<!-- Footer -->
-<footer role="contentinfo" class="footer-color">
-    <div class="container-fluid footer">
-        <div class="row footer-txt-push">
-            <div class="col-md-12 col-sm-12 col-lg-12">
-                <p class="text-center text-muted"> &#169; Justin Nietzer and Nikolett Muller</p>
-            </div>
-        </div>
-        <div class="row footer-txt-push">
-            <div class="col-md-12 col-sm-12 col-lg-12">
-                <p class="text-center text-muted">Decorative image: <a
-                        href="https://unsplash.com/photos/FewHpO4VC9Y" target="_blank">Umberto</a>.</p>
-            </div>
-        </div>
-    </div>
-</footer>
+<footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2021 Justin Nietzer and Nikolett Muller · <a href="about.html">About</a> · <a href="team.html">The Team</a></p>
+      </footer>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
