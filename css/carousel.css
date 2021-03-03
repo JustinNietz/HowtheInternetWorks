@@ -91,10 +91,12 @@
     .featurette-heading {
         font-size: 50px;
     }
+
 }
 
 @media (min-width: 62em) {
     .featurette-heading {
         margin-top: 7rem;
     }
+
 }
