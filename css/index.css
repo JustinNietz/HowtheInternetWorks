@@ -353,3 +353,8 @@ img {
     }
 
 }
+#whiteline{
+        height: 1px;
+        background-color:#eef4f7;
+        border: none;
+    }
